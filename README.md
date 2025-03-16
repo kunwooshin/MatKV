@@ -1,7 +1,7 @@
 # MatKV
 
-### Environment
-
+### <u>Installation</u>
+-----
 1. Config your local environment.
 
    ```bash
