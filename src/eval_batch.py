@@ -15,9 +15,9 @@ import pathlib
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,  # 4-bit로 로드
-    bnb_4bit_compute_dtype=torch.float16,  # 연산 시 float16 사용
-    bnb_4bit_use_double_quant=True,  # 더블 양자화 사용 (메모리 최적화)
-    bnb_4bit_quant_type="nf4"  # NormalFloat4 (nf4) 양자화 적용
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_quant_type="nf4"
 )
 
 def file_read(inp_f, handle, gpu_buffer):
@@ -67,9 +67,7 @@ class QueryProcessor():
         db_dir: str,
         cache_dir: str,
         top_k: int = 4,
-        model_name: str = "meta-llama/Llama-3.1-8B",
-        # model_name: str = "meta-llama/Llama-3.1-70B",
-        # model_name: str = "meta-llama/Llama-3.2-3B",
+        model_name: str = "meta-llama/Llama-3.1-70B", # "meta-llama/Llama-3.1-8B" or "meta-llama/Llama-3.2-3B",
         use_past_cache: bool = True,
     ):
         self.query_file = query_file
@@ -87,7 +85,7 @@ class QueryProcessor():
         self.model = AutoModelForCausalLM.from_pretrained(
         model_name,
         torch_dtype=torch.float16,
-        #quantization_config=bnb_config,
+        quantization_config=bnb_config, # only included for 70B model
         device_map="auto",
         )
 
