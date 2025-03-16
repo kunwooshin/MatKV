@@ -9,3 +9,7 @@
     $ conda activate matkv
     $ pip3 install -r requirements.txt
    ```
+2. async io (nvme ?)
+3. llama huggingface
+
+### Run experiment
