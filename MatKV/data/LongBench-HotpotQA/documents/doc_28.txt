@@ -1,0 +1,281 @@
+Planetary protection
+Planetary protection is a guiding principle in the design of an interplanetary mission, aiming to prevent biological contamination of both the target celestial body and the Earth in the case of sample-return missions. Planetary protection reflects both the unknown nature of the space environment and the desire of the scientific community to preserve the pristine nature of celestial bodies until they can be studied in detail.There are two types of interplanetary contamination. Forward contamination is the transfer of viable organisms from Earth to another celestial body.  Back contamination is the transfer of extraterrestrial organisms, if they exist, back to the Earth's biosphere.
+
+History
+The potential problem of lunar and planetary contamination was first raised at the International Astronautical Federation VIIth Congress in Rome in 1956.In 1958 the U.S. National Academy of Sciences (NAS) passed a resolution stating, “The National Academy of Sciences of the United States of America urges that scientists plan lunar and planetary studies with great care and deep concern so that initial operations do not compromise and make impossible forever after critical scientific experiments.” This led to creation of the ad hoc Committee on Contamination by Extraterrestrial Exploration (CETEX), which met for a year and recommended that interplanetary spacecraft be sterilized, and stated, “The need for sterilization is only temporary. Mars and possibly Venus need to remain uncontaminated only until study by manned ships becomes possible”.In 1959, planetary protection was transferred to the newly formed Committee on Space Research (COSPAR). COSPAR in 1964 issued Resolution 26 affirming that:
+
+the search for extraterrestrial life is an important objective of space research, that the planet of Mars may offer the only feasible opportunity to conduct this search during the foreseeable future, that contamination of this planet would make such a search far more difficult and possibly even prevent for all time an unequivocal result, that all practical steps should be taken to ensure that Mars be not biologically contaminated until such time as this search has been satisfactorily carried out, and that cooperation in proper scheduling of experiments and use of adequate spacecraft sterilization techniques is required on the part of all deep space probe launching authorities to avoid such contamination.
+In 1967, the US, USSR, and UK ratified the United Nations Outer Space Treaty.  The legal basis for planetary protection lies in Article IX of this treaty:
+"Article IX: ... States Parties to the Treaty shall pursue studies of outer space, including the Moon and other celestial bodies, and conduct exploration of them so as to avoid their harmful contamination and also adverse changes in the environment of the Earth resulting from the introduction of extraterrestrial matter and, where necessary, shall adopt appropriate measures for this purpose... 
+This treaty has since been signed and ratified by 104 nation-states. Another 24 have signed but not ratified.  All the current space-faring nation-states, along with all current aspiring space-faring nation-states, have both signed and ratified the treaty.The Outer Space Treaty has consistent and widespread international support, and as a result of this, together with the fact that it is based on the 1963 declaration which was adopted by consensus in the UN National Assembly, it has taken on the status of customary international law. The provisions of the Outer Space Treaty are therefore binding on all states, even those who have neither signed nor ratified it.For forward contamination, the phrase to be interpreted is "harmful contamination".  Two legal reviews came to differing interpretations of this clause (both reviews were unofficial). However the currently accepted interpretation is that “any contamination which would result in harm to a state’s experiments or programs is to be avoided”. NASA policy states explicitly that “the conduct of scientific investigations of possible extraterrestrial life forms, precursors, and remnants must not be jeopardized”.
+
+COSPAR recommendations and categories
+The Committee on Space Research (COSPAR) meets every two years, in a gathering of 2000 to 3000 scientists, and one of its tasks is to develop recommendations for avoiding interplanetary contamination. Its legal basis is Article IX of the Outer Space Treaty  (see history below for details).
+Its recommendations depend on the type of space mission and the celestial body explored.  COSPAR categorizes the missions into 5 groups:
+
+Category I: Any mission to locations not of direct interest for chemical evolution or the origin of life, such as the  Sun or Mercury. No planetary protection requirements.
+Category II: Any mission to locations of significant interest for chemical evolution and the origin of life, but only a remote chance that spacecraft-borne contamination could compromise investigations. Examples include the Moon, Venus, and comets. Requires simple documentation only, primarily to outline intended or potential impact targets, and an end of mission report of any inadvertent impact site if such occurred.
+Category III: Flyby and orbiter missions to locations of significant interest for chemical evolution or the origin of life, and with a significant chance that contamination could compromise investigations e.g., Mars, Europa, Enceladus. Requires more involved documentation than Category II. Other requirements, depending on the mission, may include trajectory biasing, clean room assembly, bioburden reduction, and if impact is a possibility, inventory of organics.
+Category IV: Lander or probe missions to the same locations as Category III. Measures to be applied depend on the target body and the planned operations. "Sterilization of the entire spacecraft may be required for landers and rovers with life-detection experiments, and for those landing in or moving to a region where terrestrial microorganisms may survive and grow, or where indigenous life may be present. For other landers and rovers, the requirements would be for decontamination and partial sterilization of the landed hardware."Missions to Mars in category IV are subclassified further:Category IVa. Landers that do not search for Martian life - uses the Viking lander pre-sterilization requirements, a maximum of 300,000 spores per spacecraft and 300 spores per square meter.
+Category IVb. Landers that search for Martian life.  Adds stringent extra requirements to prevent contamination of samples.
+Category IVc. Any component that accesses a Martian special region (see below) must be sterilized to at least to the Viking post-sterilization biological burden levels of 30 spores total per spacecraft.Category V: This is further divided into unrestricted and restricted sample return.Unrestricted Category V: samples from locations judged by scientific opinion to have no indigenous lifeforms. No special requirements.
+Restricted Category V: (where scientific opinion is unsure) the requirements include: absolute prohibition of destructive impact upon return, containment of all returned hardware which directly contacted the target body, and containment of any unsterilized sample returned to Earth.For Category IV missions, a certain level of biological burden is allowed for the mission. In general this is expressed as a 'probability of contamination', required to be less than one chance in 10,000 of forward contamination per mission, but in the case of Mars Category IV missions (above) the requirement has been translated into a count of Bacillus spores per surface area, as an easy to use assay method.More extensive documentation is also required for Category IV. Other procedures required, depending on the mission, may include trajectory biasing, the use of clean rooms during spacecraft assembly and testing, bioload reduction, partial sterilization of the hardware having direct contact with the target body, a bioshield for that hardware, and, in rare cases, complete sterilization of the entire spacecraft.For restricted Category V missions, the current recommendation is that no uncontained samples should be returned unless sterilized. Since sterilization of the returned samples would destroy much of their science value, current proposals involve containment and quarantine procedures. For details, see Containment and quarantine below. Category V missions also have to fulfill the requirements of Category IV to protect the target body from forward contamination.
+
+Mars special regions
+A special region is a region classified by COSPAR where terrestrial organisms could readily propagate, or thought to have a high potential for existence of Martian life forms. This is understood to apply to any region on Mars where liquid water occurs, or can occasionally occur, based on the current understanding of requirements for life.
+If a hard landing risks biological contamination of a special region, then the whole lander system must be sterilized to COSPAR category IVc.
+
+Target categories
+Some targets are easily categorized. Others are assigned provisional categories by COSPAR, pending future discoveries and research.
+The 2009 COSPAR Workshop on Planetary Protection for Outer Planet Satellites and Small Solar System Bodies covered this in some detail. Most of these assessments are from that report, with some future refinements. This workshop also gave more precise definitions for some of the categories:
+
+Category I
+“not of direct interest for understanding the process of chemical evolution or the origin of life.” 
+Io, Sun, Mercury, undifferentiated metamorphosed asteroids
+
+Category II
+… where there is only a remote chance that contamination carried by a spacecraft could jeopardize future exploration”. In this case we define “remote chance” as “the absence of niches (places where terrestrial microorganisms could proliferate) and/or a very low likelihood of transfer to those places.” 
+Callisto, comets, asteroids of category P, D, and C, Venus, Kuiper belt objects (KBO) < 1/2 size of Pluto.
+
+Provisional Category II
+Ganymede, Titan, Triton, the Pluto–Charon system, and other large KBOs (> 1/2 size of Pluto), CeresProvisionally, they assigned these objects to Category II. However, they state that more research is needed, because there is a remote possibility that the tidal interactions of Pluto and Charon could maintain some water reservoir below the surface. Similar considerations apply to the other larger KBOs.
+Triton is insufficiently well understood at present to say it is definitely devoid of liquid water. The only close up observations to date are those of Voyager 2.
+In a detailed discussion of Titan, scientists concluded that there was no danger of contamination of its surface, except short term adding of negligible amounts of organics, but Titan could have a below surface water reservoir that communicates with the surface, and if so, this could be contaminated.
+In the case of Ganymede, the question is, given that its surface shows pervasive signs of resurfacing, is there any communication with its subsurface ocean? They found no known mechanism by which this could happen, and the Galileo spacecraft found no evidence of cryovolcanism. Initially, they assigned it as Priority B minus, meaning that precursor missions are needed to assess its category before any surface missions. However, after further discussion they provisionally assigned it to Category II, so no precursor missions are required, depending on future research.
+If there is cryovolcanism on Ganymede or Titan, the undersurface reservoir is thought to be 50 – 150 km below the surface. They were unable to find a process that could transfer the surface melted water back down through 50 km of ice to the under surface sea. This is why both Ganymede and Titan were assigned a reasonably firm provisional Category II, but pending results of future research.
+Icy bodies that show signs of recent resurfacing need further discussion and might need to be assigned to a new category depending on future research. This approach has been applied, for instance, to missions to Ceres. The planetary protection Category is subject for review during the mission of the Ceres orbiter (Dawn) depending on the results found.
+
+Category III / IV
+“…where there is a significant chance that contamination carried by a spacecraft could jeopardize future exploration.” We define “significant chance” as “the presence of niches (places where terrestrial microorganisms could proliferate) and the likelihood of transfer to those places.” 
+Mars because of possible subsurface habitats.
+Europa because of its subsurface ocean.
+Enceladus because of evidence of water plumes.
+
+Category V
+Unrestricted Category V: “Earth-return missions from bodies deemed by scientific opinion to have no indigenous life forms.”
+Restricted Category V: "Earth-return missions from bodies deemed by scientific opinion to be of significant interest to the process of chemical evolution or the origin of life."
+In the category V for sample return the conclusions so far are:
+Unrestricted Category V: Venus, the Moon.
+Restricted Category V: Mars, Europa, Enceladus.
+
+The Coleman–Sagan equation
+The aim of the current regulations is to keep the number of microorganisms low enough so that the probability of contamination of Mars (and other targets) is acceptable. It is not an objective to make the probability of contamination zero.
+The aim is to keep the probability of contamination of 1 chance in 10,000 of contamination per mission flown. This figure is obtained typically by multiplying together the number of microorganisms on the spacecraft, the probability of growth on the target body, and a series of bioload reduction factors.
+In detail the method used is the Coleman–Sagan equation.
+  
+    
+      
+        P
+        
+          c
+        
+      
+      =
+      
+        N
+        
+          0
+        
+      
+      R
+      
+        P
+        
+          S
+        
+      
+      
+        P
+        
+          t
+        
+      
+      
+        P
+        
+          R
+        
+      
+      
+        P
+        
+          g
+        
+      
+    
+    P_{c}=N_{0}RP_{S}P_{t}P_{R}P_{g}
+  .
+where 
+
+  
+    
+      N
+      
+        0
+      
+    
+    N_{0}
+   = the number of microorganisms on the spacecraft initially
+
+  
+    R
+    R
+   = Reduction due to conditions on spacecraft before and after launch
+
+  
+    
+      P
+      
+        S
+      
+    
+    P_{S}
+   = Probability that microorganisms on the spacecraft reach the surface of the planet
+
+  
+    
+      P
+      
+        t
+      
+    
+    P_{t}
+   = Probability that spacecraft will hit the planet - this is 1 for a lander
+
+  
+    
+      P
+      
+        R
+      
+    
+    P_{R}
+   = Probability of microorganism to be released in the environment when on the ground, usually set to 1 for crashlanding.
+
+  
+    
+      P
+      
+        g
+      
+    
+    P_{g}
+   = Probability of growth. For targets with liquid water this is set to 1 for sake of the calculation.Then the requirement is 
+  
+    
+      
+        P
+        
+          c
+        
+      
+      <
+      
+        10
+        
+          −
+          4
+        
+      
+    
+    P_{c}<10^{-4}
+  
+The 
+  
+    
+      10
+      
+        −
+        4
+      
+    
+    10^{-4}
+   is a number chosen by Sagan et al., somewhat arbitrarily. Sagan and Coleman assumed that about 60 missions to the Mars surface would occur before the exobiology of Mars is thoroughly understood, 54 of those successful, and 30 flybys or orbiters, and the number was chosen to endure a probability to keep the planet free from contamination of at least 99.9% over the duration of the exploration period.
+
+Critiques
+The Coleman–Sagan equation has been criticised because the individual parameters are often not known to better than a magnitude or so. For example, the thickness of the surface ice of Europa is unknown, and may be thin in places, which can give rise to a high level of uncertainty in the equation. It has also been criticised because of the inherent assumption made of an end to the protection period and future human exploration. In the case of Europa, this would only protect it with reasonable probability for the duration of the period of exploration.Greenberg has suggested an alternative, to use the natural contamination standard — that our missions to Europa should not have a higher chance of contaminating it than the chance of contamination by meteorites from Earth.
+As long as the probability of people infecting other planets with terrestrial microbes is substantially smaller than the probability that such contamination happens naturally, exploration activities would, in our view, be doing no harm. We call this concept the natural contamination standard.
+Another approach for Europa is the use of binary decision trees which is favoured by the Committee on Planetary Protection Standards for Icy Bodies in the Outer Solar System under the auspices of the Space Studies Board. This goes through a series of seven steps, leading to a final decision on whether to go ahead with the mission or not.
+Recommendation: Approaches to achieving planetary protection should not rely on the multiplication of bioload estimates and probabilities to calculate the likelihood of contaminating Solar System bodies with terrestrial organisms unless scientific data unequivocally define the values, statistical variation, and mutual independence of every factor used in the equation.Recommendation: Approaches to achieving planetary protection for missions to icy Solar System bodies should employ a series of binary decisions that consider one factor at a time to determine the appropriate level of planetary protection procedures to use.
+
+Containment and quarantine for restricted Category V sample return
+In the case of restricted Category V missions, Earth would be protected through quarantine of sample and astronauts in a yet to be built Biosafety level 4 facility. In the case of a Mars sample return, missions would be designed so that no part of the capsule that encounters the Mars surface is exposed to the Earth environment. One way to do that is to enclose the sample container within a larger outer container from Earth, in the vacuum of space. The integrity of any seals is essential and the system must also be monitored to check for the possibility of micro-meteorite damage during return to Earth.The recommendation of the ESF report is that
+“No uncontained Mars materials, including space craft surfaces that have been exposed to the Mars environment should be returned to Earth unless sterilised"..."For unsterilised samples returned to Earth, a programme of life detection and biohazard testing, or a proven sterilisation process, shall be undertaken as an absolute precondition for the controlled distribution of any portion of the sample.”
+No restricted category V returns have been carried out. During the Apollo program, the sample-returns were regulated through the Extra-Terrestrial Exposure Law. This was rescinded in 1991, so new regulations would need to be enacted. The Apollo era quarantine procedures are of interest as the only attempt to date of a return to Earth of a sample that, at the time, was thought to have a remote possibility of including extraterrestrial life.
+Samples and astronauts were quarantined in the Lunar Receiving Laboratory. The methods used would be considered inadequate for containment by modern standards. Also the lunar receiving laboratory would be judged a failure by its own design criteria as the sample return didn't contain the lunar material, with two failure points during the Apollo 11 return mission, at the splashdown and at the facility itself.
+However the Lunar Receiving Laboratory was built quickly with only two years from start to finish, a time period now considered inadequate. Lessons learned from it can help with design of any Mars sample return receiving facility.Design criteria for a proposed Mars Sample Return Facility, and for the return mission, have been developed by the American National Research Council, and the European Space Foundation. They concluded that it could be based on biohazard 4 containment but with more stringent requirements to contain unknown microorganisms possibly as small as or smaller than the smallest Earth microorganisms known, the ultramicrobacteria. The ESF study also recommended that it should be designed to contain the smaller gene transfer agents if possible, as these could potentially transfer DNA from martian microorganisms to terrestrial microorganisms if they have a shared evolutionary ancestry. It also needs to double as a clean room facility to protect the samples from terrestrial contamination that could confuse the sensitive life detection tests that would be used on the samples.
+Before a sample return, new quarantine laws would be required. Environmental assessment would also be required, and various other domestic and international laws not present during the Apollo era would need to be negotiated.
+
+Decontamination procedures
+For all spacecraft missions requiring decontamination, the starting point is clean room assembly in US federal standard class 100 cleanrooms. These are rooms with fewer than 100 particles of size 0.5 µm or larger per cubic foot. Engineers wear cleanroom suits with only their eyes exposed. Components are sterilized individually before assembly, as far as possible, and they clean surfaces frequently with alcohol wipes during assembly. Spores of Bacillus subtilis was chosen for not only its ability to readily generate spores, but its well-established use as a model species. It is a useful tracker of UV irradiation effects because of its high resilience to a variety of extreme conditions. As such it is an important indicator species for forward contamination in the context of planetary protection.
+For Category IVa missions (Mars landers that do not search for Martian life), the aim is to reduce the bioburden to 300,000 bacterial spores on any surface from which the spores could get into the Martian environment. Any heat tolerant components are heat sterilized to 114 °C. Sensitive electronics such as the core box of the rover including the computer, are sealed and vented through high-efficiency filters to keep any microbes inside.For more sensitive missions such as Category IVc (to Mars special regions), a far higher level of sterilization is required. These need to be similar to levels implemented on the Viking landers, which were sterilized for a surface which, at the time, was thought to be potentially hospitable to life similar to special regions on Mars today.
+In microbiology, it is usually impossible to prove that there are no microorganisms left viable, since many microorganisms are either not yet studied, or not cultivable. Instead, sterilization is done using a series of tenfold reductions of the numbers of microorganisms present. After a sufficient number of tenfold reductions, the chance that there any microorganisms left will be extremely low.The two Viking Mars landers were sterilized using dry heat sterilization.  After preliminary cleaning to reduce the bioburden to levels similar to present day Category IVa spacecraft, the Viking spacecraft were heat-treated for 30 hours at 112 °C, nominal 125 °C (five hours at 112 °C was considered enough to reduce the population tenfold even for enclosed parts of the spacecraft, so this was enough for a million-fold reduction of the originally low population).Modern materials however are often not designed to handle such temperatures, especially since modern spacecraft often use "commercial off the shelf" components. Problems encountered include nanoscale features only a few atoms thick, plastic packaging, and conductive epoxy attachment methods. Also many instrument sensors cannot be exposed to high temperature, and high temperature can interfere with critical alignments of instruments.As a result, new methods are needed to sterilize a modern spacecraft to the higher categories such as Category IVc for Mars, similar to Viking. Methods under evaluation, or already approved, include:
+
+Vapour phase hydrogen peroxide - effective, but can affect finishes, lubricants and materials that use aromatic rings and sulfur bonds. This has been established, reviewed, and a NASA/ESA specification for use of VHP has been approved by the Planetary Protection Officer, but it has not yet been formally published.
+Ethylene oxide - this is widely used in the medical industry, and can be used for materials not compatible with hydrogen peroxide. It is under consideration for missions such as ExoMars.
+Gamma radiation and electron beams have been suggested as a method of sterilization, as they are used extensively in the medical industry. They need to be tested for compatibility with spacecraft materials and hardware geometries, and are not yet ready for review.Some other methods are of interest as they can sterilize the spacecraft after arrival on the planet.
+Supercritical carbon dioxide snow (Mars) - is most effective against traces of organic compounds rather than whole microorganisms. Has the advantage though that it eliminates the organic traces - while other methods kill the microorganisms, they leave organic traces that can confuse life detection instruments. Is under study by JPL and ESA.
+Passive sterilization through UV radiation (Mars). Highly effective against many microorganisms, but not all, as a Bacillus strain found in spacecraft assembly facilities is particularly resistant to UV radiation. Is also complicated by possible shadowing by dust and spacecraft hardware.
+Passive sterilization through particle fluxes (Europa). Plans for missions to Europa take credit for reductions due to this.
+
+Bioburden detection and assessment
+The spore count is used as an indirect measure of the number of microorganisms present. Typically 99% of microorganisms by species will be non-spore forming and able to survive in dormant states, and so the actual number of viable dormant microorganisms remaining on the sterilized spacecraft is expected to be many times the number of spore-forming microorganisms.
+One new spore method approved is the "Rapid Spore Assay". This is based on commercial rapid assay systems, detects spores directly and not just viable microorganisms and gives results in 5 hours instead of 72 hours.
+
+Challenges
+It is also long been recognized that spacecraft cleaning rooms harbour polyextremophiles as the only microbes able to survive in them. For example, in a recent study, microbes from swabs of the Curiosity rover were subjected to desiccation, UV exposure, cold and pH extremes. Nearly 11% of the 377 strains survived more than one of these severe conditions. The genomes of resistant spore producing Bacillus sp. have been studied and genome level traits potentially linked to the resistance have been reported.This does not mean that these microbes have contaminated Mars. This is just the first stage of the process of bioburden reduction. To contaminate Mars they also have to survive the low temperature, vacuum, UV and ionizing radiation during the months long journey to Mars, and then have to encounter a habitat on Mars and start reproducing there. Whether this has happened or not is a matter of probability. The aim of planetary protection is to make this probability as low as possible. The currently accepted target probability of contamination per mission is to reduce it to less than 0.01%, though in the special case of Mars, scientists also rely on the hostile conditions on Mars to take the place of the final stage of heat treatment decimal reduction used for Viking. But with current technology scientists cannot reduce probabilities to zero.
+
+New methods
+Two recent molecular methods have been approved for assessment of microbial contamination on 
+spacecraft surfaces.
+Adenosine triphosphate (ATP) detection - this is a key element in cellular metabolism. This method is able to detect non cultivable organisms. It can also be triggered by non viable biological material so can give a "false positive".
+Limulus Amebocyte Lysate assay - detects lipopolysaccharides (LPS). This compound is only present in Gram-negative bacteria. The standard assay analyses spores from microbes that are primarily Gram-positive, making it difficult to relate the two methods.
+
+Impact prevention
+This particularly applies to orbital missions, Category III, as they are sterilized to a lower standard than missions to the surface. It is also relevant to landers, as an impact gives more opportunity for forward contamination, and impact could be on an unplanned target, such as a special region on Mars.
+The requirement for an orbital mission is that it needs to remain in orbit for at least 20 years after arrival at Mars with probability of at least 99% and for 50 years with probability at least 95%. This requirement can be dropped if the mission is sterilized to Viking sterilization standard.In the Viking era (1970s), the requirement was given as a single figure, that any orbital mission should have a probability of less than 0.003% probability of impact during the current exploratory phase of exploration of Mars.For both landers and orbiters, the technique of trajectory biasing is used during approach to the target. The spacecraft trajectory is designed so that if communications are lost, it will miss the target.
+
+Issues with impact prevention
+Despite these measures there has been one notable failure of impact prevention. The Mars Climate Orbiter which was sterilized only to Category III, crashed on Mars in 1999 due to a mix-up of imperial and metric units. The office of planetary protection stated that it is likely that it burnt up in the atmosphere, but if it survived to the ground, then it could cause forward contamination.Mars Observer is another Category III mission with potential planetary contamination. Communications were lost three days before its orbital insertion maneuver in 1993. It seems most likely it did not succeed in entering into orbit around Mars and simply continued past on a heliocentric orbit. If it did succeed in following its automatic programming, and attempted the manoeuvre, however, there is a chance it crashed on Mars.Three landers have had hard landings on Mars.  These are Schiaparelli EDM lander, the Mars Polar Lander, and Deep Space 2. These were all sterilized for surface missions but not for special regions (Viking pre-sterilization only). Mars Polar Lander, and Deep Space 2 crashed into the polar regions which are now treated as special regions because of the possibility of forming liquid brines.
+
+Controversies
+Meteorite argument
+Alberto G. Fairén and Dirk Schulze-Makuch published an article in Nature recommending that planetary protection measures need to be scaled down. They gave as their main reason for this, that exchange of meteorites between Earth and Mars means that any life on Earth that could survive on Mars has already got there and vice versa.Robert Zubrin used similar arguments in favour of his view that the back contamination risk has no scientific validity.
+
+Rebuttal by NRC
+The meteorite argument was examined by the NRC in the context of back contamination. It is thought that all the Martian meteorites originate in relatively few impacts every few million years on Mars. The impactors would be kilometers in diameter and the craters they form on Mars tens of kilometers in diameter. Models of impacts on Mars are consistent with these findings.Earth receives a steady stream of meteorites from Mars, but they come from relatively few original impactors, and transfer was more likely in the early Solar System. Also some life forms viable on both Mars and on Earth might be unable to survive transfer on a meteorite, and there is so far no direct evidence of any transfer of life from Mars to Earth in this way.
+The NRC concluded that though transfer is possible, the evidence from meteorite exchange does not eliminate the need for back contamination protection methods.Impacts on Earth able to send microorganisms to Mars are also infrequent. Impactors of 10 km across or larger can send debris to Mars through the Earth's atmosphere but these occur rarely, and were more common in the early Solar System.
+
+Proposal to end planetary protection for Mars
+In their 2013 paper "The Over Protection of Mars", Alberto Fairén and Dirk Schulze-Makuch suggested that we no longer need to protect Mars, essentially using Zubrin's meteorite transfer argument. This was rebutted in a follow up article "Appropriate Protection of Mars", in Nature by the current and previous planetary protection officers Catharine Conley and John Rummel.
+
+Critique of Category V containment measures
+The scientific consensus is that the potential for large-scale effects, either through pathogenesis or ecological disruption, is extremely small. Nevertheless, returned samples from Mars will be treated as potentially biohazardous until scientists can determine that the returned samples are safe. The goal is to reduce the probability of release of a Mars particle to less than one in a million.
+
+Policy proposals
+Non-biological contamination
+A COSPAR workshop in 2010, looked at issues to do with protecting areas from non biological contamination. They recommended that COSPAR expand its remit to include such issues. Recommendations of the workshop include:
+
+Recommendation 3 COSPAR should add a separate and parallel policy to provide guidance on requirements/best practices for protection of non-living/nonlife-related aspects of Outer Space and celestial bodies
+Some ideas proposed include protected special regions, or "Planetary Parks" to keep regions of the Solar System pristine for future scientific investigation, and also for ethical reasons.
+
+Proposed extensions
+Astrobiologist Christopher McKay has argued that until we have better understanding of Mars, our explorations should be biologically reversible. For instance if all the microorganisms introduced to Mars so far remain dormant within the spacecraft, they could in principle be removed in the future, leaving Mars completely free of contamination from modern Earth lifeforms.
+In the 2010 workshop one of the recommendations for future consideration was to extend the period for contamination prevention to the maximum viable lifetime of dormant microorganisms introduced to the planet.
+
+"'Recommendation 4.' COSPAR should consider that the appropriate protection of potential indigenous extraterrestrial life shall include avoiding the harmful contamination of any habitable environment —whether extant or foreseeable— within the maximum potential time of viability of any terrestrial organisms (including microbial spores) that may be introduced into that environment by human or robotic activity."
+In the case of Europa, a similar idea has been suggested, that it is not enough to keep it free from contamination during our current exploration period. It might be that Europa is of sufficient scientific interest that the human race has a duty to keep it pristine for future generations to study as well. This was the majority view of the 2000 task force examining Europa, though there was a minority view of the same task force that such strong protection measures are not required.
+
+"One consequence of this view is that Europa must be protected from contamination for an open-ended period, until it can be demonstrated that no ocean exists or that no organisms are present. Thus, we need to be concerned that over a time scale on the order of 10 million to 100 million years (an approximate age for the surface of Europa), any contaminating material is likely to be carried into the deep ice crust or into the underlying ocean."
+In July 2018, the National Academies of Sciences, Engineering, and Medicine issued a Review and Assessment of Planetary Protection Policy Development Processes. In part, the report urges NASA to create a broad strategic plan that covers both forward and back contamination. The report also expresses concern about private industry missions, for which there is no governmental regulatory authority.
+
+Protecting objects beyond the Solar System
+The proposal by the German physicist Claudius Gros, that the technology of the Breakthrough Starshot project may be utilized to establish a biosphere of unicellular organisms on otherwise only transiently habitable exoplanets, has sparked a discussion, to what extent planetary protection should be extended to exoplanets. Gros argues that the extended timescales of
+interstellar missions imply that planetary and exoplanetary protection have different ethical groundings.
+
+See also
+Astrobiology – Science concerned with life in the universe
+ExoMars – Astrobiology programme
+List of microorganisms tested in outer space
+Mars 2020 – Astrobiology Mars rover mission by NASA
+Panspermia – Hypothesis on the interstellar spreading of primordial life

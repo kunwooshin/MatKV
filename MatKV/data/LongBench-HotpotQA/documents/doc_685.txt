@@ -1,0 +1,5 @@
+C connector
+The C connector is a type of RF connector used for terminating coaxial cable. The interface specifications for the C and many other connectors are referenced in MIL-STD-348. The connector uses  two-stud bayonet-type locks. The C connector was invented by Amphenol engineer Carl Concelman. It is weatherproof without being overly bulky. The mating arrangement is similar to that of the BNC connector. It can be used up to 11 GHz, and is rated for up to 1500 volts.
+
+See also
+USB-C (also called Type C connector)

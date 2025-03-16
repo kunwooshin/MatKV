@@ -1,0 +1,20 @@
+Tainted
+Taint or tainted may refer to:
+
+Impurities
+Contamination, the presence of a minor and unwanted element (a contaminant)
+a wine fault, such as cork taint, ladybird taint, or phenolic taint, producing undesirable odors or tastes in bottled wine
+Infection, the colonization of a host organism by parasites
+Taint (legal), the quality of illegally obtained court evidence
+Taint checking, a feature of some programming languages that prevents unauthorized users from remotely executing commands on a computer
+
+Titles
+The Taint (novel) (or Doctor Who and the Taint), a novel written by Michael Collier and based on the British television series Doctor Who
+Taint (band), a sludge-metal band from Wales
+The Taint (film), a 1915 American silent film
+Tainted (film), a 1987 American film
+
+Other uses
+Taint (anatomy), colloquial name for the space between the anus and genitals
+Tint, an archaic form, referring to a color mixed with white
+Tainted kernel, when proprietary modules are loaded into Linux

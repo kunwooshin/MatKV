@@ -1,0 +1,28 @@
+Bear games
+Bear games is a category of board games of which many have historical roots in the Roman Empire. They were played in parts of the Empire as far away as Turkey and France and are still played today, especially in Italy.  All of the games are two-player abstract strategy board games.  Normally, the game is played with three hunters and one bear on a patterned board.  It bears similarity to the hunt games such as the Fox games, Rimau-rimau, and Bagha-Chall, however, there are no captures involved.  The three hunters are trying to hem in the bear, and block its movements.
+The closest relative of the Bear games are the Hare games.  In this case, the hares are the "hunters" (a reversal in the naming procedure where the bear in the Bear games is the "hunted"), and there are three of them which is the same number of hunters in the Bear games.  The difference is that the hares cannot move backwards in any way, whereas, the hunters can move in any direction.  As a result, the boards used are also different.  Another close relative is the game called Watermelon Chess.  In one of the Bear game variants, the board is the same as that of Watermelon Chess.  Furthermore, the game Sz'Kwa also uses the same board, although it is not actually related to the Bear games since the rules and game play are completely different.
+
+Goal
+The hunters attempt to hem in the bear and block its movements.  The goal of the bear is to avoid this fate.  As an optional rule, if the hunters cannot stalemate the bear in a given number of moves, e.g. 40 moves, the bear wins.
+
+Equipment
+There are a variety of patterned boards anywhere from round to rectangular boards.  The first link below shows seven.  There are normally three hunters, and one bear, however, these quantities especially for the hunters can change drastically depending upon the variant.
+
+Rules
+Initial positions of the pieces vary depending upon the variant.  Usually the bear is placed in the middle of the board, and the hunters are placed together on one end of the board.  One player plays the hunters (normally three pieces), and the other player plays the bear.
+Both hunters and bears move one space at a time following the pattern on the board.  Only one piece may be moved by each player.  Players alternate their turns.  There are no captures in this game.
+As an optional rule – the bear wins if the hunters cannot stalemate the bear in a given number of moves, e.g. 40 moves.
+
+Analysis
+With perfect play, the hunters win.
+This is a great example of a game where the humans have an edge over the computer.  In some variants, the Zillions of Games program takes longer to win a game for the hunters as compared to human players.
+
+Related Games
+Hare games
+Watermelon Chess
+Sz'Kwa
+Fox games
+Rimau-rimau
+Bagha-Chall
+Main Tapal Empat
+Adugo

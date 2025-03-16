@@ -1,0 +1,95 @@
+Transit (astronomy)
+In astronomy, a transit (or astronomical transit) is a phenomenon when a celestial body passes directly between a larger body and the observer. As viewed from a particular vantage point, the transiting body appears to move across the face of the larger body, covering a small portion of it.The word "transit" refers to cases where the nearer object appears smaller than the more distant object. Cases where the nearer object appears larger and completely hides the more distant object are known as occultations.
+However, the probability of seeing a transiting planet is low because it is dependent on the alignment of the three objects in a nearly perfectly straight line. Many parameters of  a planet and its parent star can be determined based on the transit.
+
+In the Solar System
+One example of a transit involves the motion of a planet between a terrestrial observer and the Sun. This can happen only with inferior planets, namely Mercury and Venus (see transit of Mercury and transit of Venus). However, because a transit is dependent on the point of observation, the Earth itself transits the Sun if observed from Mars. In the solar transit by the Moon captured during calibration of the STEREO B spacecraft's ultraviolet imaging, the Moon appears much smaller than it does when seen from Earth, because the spacecraft–Moon separation was several times greater than the Earth–Moon distance.
+The term can also be used to describe the motion of a satellite across its parent planet, for instance one of the Galilean satellites (Io, Europa, Ganymede, Callisto) across Jupiter, as seen from Earth.
+Although rare, cases where four bodies are lined up do happen. One of these events occurred on 27 June 1586, when Mercury transited the Sun as seen from Venus at the same time as a transit of Mercury from Saturn and a transit of Venus from Saturn.
+
+Notable observations
+No missions were planned to coincide with the transit of Earth visible from Mars on 11 May 1984 and the Viking missions had been terminated a year previously. Consequently, the next opportunity to observe such an alignment will be in 2084.
+On 21 December 2012, the Cassini–Huygens probe, in orbit around Saturn, observed the planet Venus transiting the Sun.On 3 June 2014, the Mars rover Curiosity observed the planet Mercury transiting the Sun, marking the first time a planetary transit has been observed from a celestial body besides Earth.
+
+Mutual planetary transits
+In rare cases, one planet can pass in front of another. If the nearer planet appears smaller than the more distant one, the event is called a mutual planetary transit.
+
+Outside the Solar System
+Exoplanet Detection
+
+The transit method can be used to discover exoplanets. As a planet eclipses/transits its host star it will block a portion of the light from the star. If the planet transits in-between the star and the observer the change in light can be measured to construct a light curve. Light curves are measured with a charge-coupled device. The light curve of a star can disclose several physical characteristics of the planet and star, such as density. Multiple transit events must be measured to determine the characteristics which tend to occur at regular intervals. Multiple planets orbiting the same host star can cause transit-timing variations (TTV). TTV is caused by the gravitational forces of all orbiting bodies acting upon each other. The probability of seeing a transit from Earth is low, however. The probability is given by the following equation.
+
+  
+    
+      
+        
+          P
+          
+            transit
+          
+        
+        =
+        (
+        
+          R
+          
+            star
+          
+        
+        +
+        
+          R
+          
+            planet
+          
+        
+        )
+        
+          /
+        
+        a
+        ,
+      
+    
+    {\displaystyle P_{\text{transit}}=(R_{\text{star}}+R_{\text{planet}})/a,}
+  where Rstar and Rplanet are the radius of the star and planet, respectively, and a is the semi-major axis. Because of the low probability of a transit in any specific system, large selections of the sky must be regularly observed in order to see a transit. Hot Jupiters are more likely to be seen because of their larger radius and short semi-major axis. In order to find Earth-sized planets, red dwarf stars are observed because of their small radius. Even though transiting has a low probability it has proven itself to be a good technique for discovering exoplanets.
+In recent years, the discovery of extrasolar planets has prompted interest in the possibility of detecting their transits across their own stellar primaries. HD 209458b was the first such transiting planet to be detected.
+The transit of celestial objects is one of the few key phenomena used today for the study of exoplanetary systems. Today, transit photometry is the leading form of exoplanet discovery. As an exoplanet moves in front of its host star there is a dimming in the luminosity of the host star that can be measured. Larger planets make the dip in luminosity more noticeable and easier to detect. Followup observations using other methods are often carried out to ensure it is a planet.
+There are currently (December 2018) 2345 planets confirmed with Kepler light curves for stellar host.
+
+Contacts
+During a transit there are four "contacts", when the circumference of the small circle (small body disk) touches the circumference of the large circle (large body disk) at a single point.  Historically, measuring the precise time of each point of contact was one of the most accurate ways to determine the positions of astronomical bodies.  The contacts happen in the following order:
+
+First contact: the smaller body is entirely outside the larger body, moving inward ("exterior ingress")
+Second contact: the smaller body is entirely inside the larger body, moving further inward ("interior ingress")
+Third contact: the smaller body is entirely inside the larger body, moving outward ("interior egress")
+Fourth contact: the smaller body is entirely outside the larger body, moving outward ("exterior egress")A fifth named point is that of greatest transit, when the apparent centers of the two bodies are nearest to each other, halfway through the transit.
+
+Missions
+Since transit photometry allows for scanning large celestial areas with a simple procedure, it has been the most popular and successful form of finding exoplanets in the past decade and includes many projects, some of which have already been retired, others in use today, and some in progress of being planned and created. The most successful projects include HATNet, KELT, Kepler, and WASP, and some new and developmental stage missions such as TESS, HATPI, and others which can be found among the List of Exoplanet Search Projects.
+
+HATNet
+HATNet Project is a set of northern telescopes in Fred Lawrence Whipple Observatory, Arizona and Mauna Kea Observatories, HI, and southern telescopes around the globe, in Africa, Australia, and South America, under the HATSouth branch of the project. These are small aperture telescopes, just like KELT, and look at a wide field which allows them to scan a large area of the sky for possible transiting planets. In addition, their multitude and spread around the world allows for 24/7 observation of the sky so that more short-period transits can be caught.A third sub-project, HATPI, is currently under construction and will survey most of the night sky seen from its location in Chile.
+
+KELT
+KELT is a terrestrial telescope mission designed to search for transiting systems of planets of magnitude 8<M<10. It began operation in October 2004 in Winer Observatory and has a southern companion telescope added in 2009. KELT North observes "26-degree wide strip of sky that is overhead from North America during the year", while KELT South observes single target areas of the size 26 by 26 degrees. Both telescopes can detect and identify transit events as small as a 1% flux dip, which allows for detection of planetary systems similar to those in our planetary system.
+
+Kepler / K2
+The Kepler satellite served the Kepler mission between 7 March 2009 and 11 May 2013, where it observed one part of the sky in search of transiting planets within a 115 square degrees of the sky around the Cygnus, Lyra, and Draco constellations. After that, the satellite continued operating until 15 November 2018, this time changing its field along the ecliptic to a new area roughly every 75 days due to reaction wheel failure.
+
+TESS
+TESS was launched on 18 April 2018, and is planned to survey most of the sky by observing it strips defined along the right ascension lines for 27 days each. Each area surveyed is 27 by 90 degrees. Because of the positioning of sections, the area near TESS's rotational axis will be surveyed for up to 1 year, allowing for the identification of planetary systems with longer orbital periods.
+
+See also
+Eclipse
+Kepler Mission
+Occultation
+Syzygy (astronomy)
+Conjunction (astronomy)
+Opposition (planets)
+Transit of asteroids
+Transit of Deimos from Mars
+Transit of Phobos from Mars
+Transit of Vulcan
+Transit of Mercury from Mars
+Transit of Earth from Mars

@@ -1,0 +1,2 @@
+Exonuclease VII
+The enzyme exodeoxyribonuclease VII (EC 3.1.11.6, Escherichia coli exonuclease VII, E. coli exonuclease VII, endodeoxyribonuclease VII, exodeoxyribonuclease VII) is a bacterial exonuclease enzyme. It is composed of two nonidentical subunits; one large subunit and 4 small ones. that catalyses exonucleolytic cleavage in either 5′- to 3′- or 3′- to 5′-direction to yield nucleoside 5′-phosphates. The large subunit also contains an N-terminal OB-fold domain that binds to nucleic acids.

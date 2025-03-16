@@ -1,0 +1,17 @@
+Camlock (electrical)
+A camlock or cam-lock is an interchangeable electrical connector, often used in temporary electrical power production and distribution, predominantly in North America. Originally a trade name as Cam-Lok, it is now a generic term.  Each camlock connector carries a single phase, pole, or conductor; multiple camlock connectors will be used to make a complete electrical supply or circuit.
+The most common form is the 16 series, rated at 400 amperes with 105 °C terminations. Also in common use is the 15 series (mini-cam), rated at 150 amperes. A larger version is made denoted as the 17 series with ratings up to 760 A. A ball nose version and a longer nose standard version exist—the latter is the most common. The early version original connector was hot-vulcanized to the cable body; later versions use dimensional pressure to exclude foreign material from the connector pin area.  The tail of the connector insulator body is trimmable to fit the cable outer diameter.
+Another version is the Posi-Lok, which features keyed, shrouded connectors, and panels with sequencing interlocks.Camlock is generally used where temporary connections of 3-phase and/or more than 50 A are needed.  Applications include connecting large temporary generators or load banks to distribution panels or building disconnects.  Common scenarios include testing, emergencies, temporary special events, and traveling stage shows with large lighting and sound equipment.  They are usually found only in professional environments, where connections are performed by qualified personnel.
+
+Color codes
+Standards and industry conventions for phase and voltage exist, but may vary in practice, particularly when international companies and traveling productions are involved.
+
+North America
+The National Electric Code (NEC) only specifies colors for ground and neutral: Green for the equipment grounding (safety) conductor (NEC Article 250.119), and white or grey for the neutral (grounded) conductor (NEC Article 200.6).  These colors may not be used for any other purpose, nor may their purpose use a different color.  No other colors are specified by the NEC for general power distribution.
+Nonetheless, the following conventions exist:
+
+United Kingdom
+The UK system has two established camlock colour codes.  The old and new colour codes are not compatible:  Black was originally used to indicate neutral, and is now a phase colour; blue was used to denote a phase, and is now used to denote neutral.  As the use of camlocks in the UK has been declining, it is very unlikely to find any matching the new colour codes.
+
+Gallery
+Camlock power distribution

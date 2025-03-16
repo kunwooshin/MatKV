@@ -1,0 +1,40 @@
+Form 8-K
+Form 8-K is a very broad form used to notify investors in United States public companies of specified events that may be important to shareholders or the United States Securities and Exchange Commission. This is one of the most common types of forms filed with the SEC. After a significant event like bankruptcy or departure of a CEO, a public company generally must file a Current Report on Form 8-K within four business days to provide an update to previously filed quarterly reports on Form 10-Q and/or Annual Reports on Form 10-K. Form 8-K is required to be filed by public companies with the SEC pursuant to the Securities Exchange Act of 1934, as amended.
+
+When Form 8-K is required
+Form 8-K is used to notify investors of a current event. These types of events include:
+
+signing, amending or terminating material definitive agreements not made in the ordinary course of business, bankruptcies or receiverships
+mine shutdowns or violations of mine health and safety laws
+consummation of a material asset acquisition or sale
+results of operations and financial condition, creating certain financial obligations, such as incurrence of material debt
+triggering events that accelerate material obligations (such as defaults on a loan)
+costs associated with exit or disposal plans (layoffs, shutting down a plant, or material change in services or outlets)
+material impairments
+delisting from a securities exchange or failing to satisfy listing requirements
+unregistered equity sales (private placements)
+modifications to shareholder rights
+change in accountants
+determinations that previously issued financial statements cannot be relied upon
+change in control
+senior officer appointments and departures
+director elections and departures
+amendments to certificate/articles of incorporation or bylaws
+changes in fiscal year
+trading suspension under employee benefit plans
+amendments or waivers of code of ethics
+changes in shell company status
+results of shareholder votes
+disclosures applicable to issuers of asset-backed securities
+disclosures necessary to comply with Regulation FD
+other material events
+certain financial statements and other exhibits.Investors should always read any 8-K filings that are made by companies in which they are invested. These reports are often material to the company, and frequently contain information that will affect the share price.
+
+Reading Form 8K
+Typically an 8-K filing will only have two major parts: the name and description of the event and any exhibits that are relevant. The name and description of the event contains all the information that the company considers relevant to shareholders and the SEC. It is important to read this information, as it has been deemed "material" by the company. Any exhibits that are relevant may include financial statements, press releases, data tables, or other information that is referenced in the description of the event.
+
+Form 8K Items
+The 8-K items are defined in the following table.
+
+Historical Form 8K Items
+Prior to August 23, 2004, 8-K items were filed under different item numbers. Those historical items are displayed in the table below.
