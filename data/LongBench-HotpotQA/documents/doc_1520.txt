@@ -1,0 +1,4 @@
+ATM 2000E
+The ATM 2000 (Pz Mi 88) and ATM 2000E are Austrian plastic cased anti-vehicle mines using Misznay Schardin effect warhead. The mine uses an electronic microprocessor controlled fuze with magnetic, seismic and pressure sensors allowing it to discriminate between targets. The mine can be laid by hand or by a mechanical mine laying system, and arms ten minutes after being laid. The mine is fitted with an anti-handling device, and can be command detonated.
+When triggered, the mine detonates a small clearing charge, which clears away any earth laid on top of the mine. It then fires the main warhead, which uses a metal liner to form a penetrating fragment which is projected into the belly of the vehicle passing over the mine. The self-forging fragment is capable of penetrating steel up to 200 millimeters thick.
+The mine is currently being produced by Dynamit Nobel Wien and is in service with the Austrian Army.

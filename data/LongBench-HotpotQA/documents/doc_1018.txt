@@ -1,0 +1,12 @@
+KMXT (FM)
+KMXT (100.1 FM) is an NPR–member non-commercial  radio station in Kodiak, Alaska, United States. In addition to its NPR membership, KMXT is also affiliated with the Alaska Public Radio Network and the BBC World Service. It also airs many hours of locally originated news, talk and music programming, and relies heavily on non-paid citizen volunteers to host numerous shows.
+
+HD programming
+Currently KMXT broadcasts one analog and three digital signals:
+
+KMXT-HD1 rebroadcasts the programming from the analog signal.
+KMXT-HD2 classical and jazz.
+KMXT-HD3 KMX3 is a mono news and talk channel.An HD Radio receiver is required to pick up the digital channels. KMXT also streams its analog signal over the web.
+
+Translators
+In addition to five low-powered, separate-frequency translators, one low-powered booster also extends coverage. Boosters are licensed on the same frequency as the parent station but at a different location. They are given the same callsign as the parent station with a number added to differentiate the transmitter site.

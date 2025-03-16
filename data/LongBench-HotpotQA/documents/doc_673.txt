@@ -1,0 +1,78 @@
+Insular Celtic languages
+Insular Celtic languages are the group of Celtic languages spoken in Brittany, Great Britain, Ireland, and the Isle of Man.  All surviving Celtic languages are in the Insular group, including Breton, which is spoken on continental Europe in Brittany, France. The  Continental Celtic languages, although once quite widely spoken in mainland Europe and in Anatolia, are extinct.
+Six Insular Celtic languages are extant (in all cases written and spoken) in two distinct groups:
+
+Brittonic (or Brythonic) languages: Breton, Cornish, and Welsh
+Goidelic languages: Irish, Manx, and Scottish Gaelic
+
+Insular Celtic hypothesis
+The "Insular Celtic hypothesis" is a theory that they evolved together in those places, having a later common ancestor than any of the Continental Celtic languages such as Celtiberian, Gaulish, Galatian, and Lepontic, among others, all of which are long extinct.
+The proponents of the hypothesis (such as Cowgill 1975; McCone 1991, 1992; and Schrijver 1995) point to shared innovations among these – chiefly:
+
+inflected prepositions
+shared use of certain verbal particles
+VSO word order
+differentiation of absolute and conjunct verb endings as found extensively in Old Irish and less so in Middle Welsh (see Morphology of the Proto-Celtic language).The proponents assert that a strong partition between the Brittonic languages with Gaulish (P-Celtic) on one side and the Goidelic languages with Celtiberian (Q-Celtic) on the other, may be superficial, owing to a language contact phenomenon.  They add the identical sound shift (/kʷ/ to /p/) could have occurred independently in the predecessors of Gaulish and Brittonic, or have spread through language contact between those two groups. Further, the Italic languages had a similar divergence between Latino-Faliscan, which kept /kʷ/, and Osco-Umbrian, which changed it to /p/. Some historians, such as George Buchanan in the 16th century, had suggested the Brythonic or P-Celtic language was a descendant of the Picts' language.  Indeed the tribe of the Pritani has Qritani (and, orthographically orthodox in modern form but counterintuitively written Cruthin) (Q-Celtic) cognate forms.The family tree of the Insular Celtic languages is thus as follows:
+
+This table lists cognates showing the development of Proto-Celtic */kʷ/ to /p/ in Gaulish and the Brittonic languages but to /k/ in the Goidelic languages.
+
+^  In Welsh orthography ⟨u⟩ denotes [i] or [ɪ]A significant difference between Goidelic and Brittonic languages is the transformation of *an, *am to a denasalised vowel with lengthening, é, before an originally voiceless stop or fricative, cf. Old Irish éc "death", écath "fish hook", dét "tooth", cét "hundred" vs. Welsh angau, angad, dant, and cant. Otherwise:
+
+the nasal is retained before a vowel, i̯, w, m, and a liquid:
+Old Irish: ben "woman" (< *benā)
+Old Irish: gainethar "he/she is born" (< *gan-i̯e-tor)
+Old Irish: ainb "ignorant" (< *anwiss)
+the nasal passes to en before another n:
+Old Irish: benn "peak" (< *banno) (vs. Welsh bann)
+Middle Irish: ro-geinn "finds a place" (< *ganne) (vs. Welsh gannaf)
+the nasal passes to in, im before a voiced stop
+Old Irish: imb "butter" (vs. Breton aman(en)n, Cornish amanyn)
+Old Irish: ingen "nail" (vs. Old Welsh eguin)
+Old Irish: tengae "tongue" (vs. Welsh tafod)
+ing "strait" (vs. Middle Welsh eh-ang "wide")
+
+Insular Celtic as a language area
+In order to show that shared innovations are from a common descent it is necessary that they do not arise because of language contact after initial separation. A language area can result from widespread bilingualism, perhaps because of exogamy, and absence of sharp sociolinguistic division.
+Ranko Matasović has provided a list of changes which affected both branches of Insular Celtic but for which there is no evidence that they should be dated to a putative Proto-Insular Celtic period. These are:
+
+Phonological Changes
+The lenition of voiceless stops
+Raising/i-affection
+Lowering/a-affection
+Apocope
+Syncope
+Morphological Changes
+Creation of conjugated prepositions
+Loss of case inflection of personal pronouns (historical case-inflected forms)
+Creation of the equative degree
+Creation of the imperfect
+Creation of the conditional mood
+Morphosyntactic and Syntactic
+Rigidisation of VSO order
+Creation of preposed definite articles
+Creation of particles expressing sentence affirmation and negation
+Creation of periphrastic construction
+Creation of object markers
+Use of ordinal numbers in the sense of "one of".
+
+Absolute and dependent verb
+The Insular Celtic verb shows a peculiar feature unknown in any other attested Indo-European language: verbs have different conjugational forms depending on whether they appear in absolute initial position in the sentence (Insular Celtic having verb–subject–object or VSO word order) or whether they are preceded by a preverbal particle. The situation is most robustly attested in Old Irish, but it has remained to some extent in Scottish Gaelic and traces of it are present in Middle Welsh as well.
+Forms that appear in sentence-initial position are called absolute, those that appear after a particle are called conjunct (see Dependent and independent verb forms for details). The paradigm of the present active indicative of the Old Irish verb beirid "carry" is as follows; the conjunct forms are illustrated with the particle ní "not".
+
+In Scottish Gaelic this distinction is still found in certain verb-forms across almost all verbs (except for a very few). This is a VSO language. The example given in the first column below is the independent  or absolute  form, which must be used when the verb is in clause-initial position (or preceded in the clause by certain preverbal particles). Then following it is the dependent  or conjunct  form which is required when the verb is preceded in the clause by certain other preverbal particles, in particular interrogative or negative preverbal particles. In these examples, in the first column we have a verb in clause-initial position. In the second column a negative particle immediately precedes the verb, which makes the verb use the verb form or verb forms of the dependent  conjugation.
+
+Note that the verb forms in the above examples happen to be the same with any subject personal pronouns, not just with the particular persons chosen in the example. Also, the combination of tense–aspect–mood properties inherent in these verb forms is non-past but otherwise indefinite with respect to time, being compatible with a variety of non-past times, and context indicates the time. The sense can be completely tenseless, for example when asserting that something is always true or always happens. This verb form has erroneously been termed ‘future’ in many pedagogical grammars. A correct, neutral term ‘INDEF1’ has been used in linguistics texts.
+In Middle Welsh, the distinction is seen most clearly in proverbs following the formula "X happens, Y does not happen" (Evans 1964: 119):
+
+Pereid y rycheu, ny phara a'e goreu "The furrows last, he who made them lasts not"
+Trenghit golut, ny threingk molut "Wealth perishes, fame perishes not"
+Tyuit maban, ny thyf y gadachan "An infant grows, his swaddling-clothes grow not"
+Chwaryit mab noeth, ny chware mab newynawc "A naked boy plays, a hungry boy plays not"The older analysis of the distinction, as reported by Thurneysen (1946, 360 ff.), held that the absolute endings derive from Proto-Indo-European "primary endings" (used in present and future tenses) while the conjunct endings derive from the "secondary endings" (used in past tenses). Thus Old Irish absolute beirid "s/he carries" was thought to be from *bʰereti (compare Sanskrit bharati "s/he carries"), while conjunct beir was thought to be from *bʰeret (compare Sanskrit a-bharat "s/he was carrying").
+Today, however, most Celticists agree that Cowgill (1975), following an idea present already in Pedersen (1913, 340 ff.), found the correct solution to the origin of the absolute/conjunct distinction: an enclitic particle, reconstructed as *es after consonants and *s after vowels, came in second position in the sentence. If the first word in the sentence was another particle, *(e)s came after that and thus before the verb, but if the verb was the first word in the sentence, *(e)s was cliticized to it. Under this theory, then, Old Irish absolute beirid comes from Proto-Celtic *bereti-s, while conjunct ní beir comes from *nī-s bereti.
+The identity of the *(e)s particle remains uncertain. Cowgill suggests it might be a semantically degraded form of *esti "is", while Schrijver (1994) has argued it is derived from the particle *eti "and then", which is attested in Gaulish. Schrijver's argument is supported and expanded by Schumacher (2004), who points towards further evidence, viz., typological parallels in non-Celtic languages, and especially a large number of verb forms in all Brythonic languages that contain a particle -d (from an older *-t).
+Continental Celtic languages cannot be shown to have any absolute/conjunct distinction. However, they seem to show only SVO and SOV word orders, as in other Indo-European languages. The absolute/conjunct distinction may thus be an artifact of the VSO word order that arose in Insular Celtic.
+
+Possible pre-Celtic substratum
+Insular Celtic, unlike  Continental Celtic, shares some structural characteristics with various Afro-Asiatic languages which are rare in other Indo-European languages. These similarities include verb–subject–object word order, singular verbs with plural post-verbal subjects, a genitive construction similar to construct state, prepositions with fused inflected pronouns ("conjugated prepositions" or "prepositional pronouns"), and oblique relatives with pronoun copies. Such resemblances were noted as early as 1621 with regard to Welsh and the Hebrew language.The hypothesis that the Insular Celtic languages had features from an Afro-Asiatic substratum (Iberian and Berber languages) was first proposed by John Morris-Jones in 1899. The theory has been supported by several linguists since: Henry Jenner (1904); Julius Pokorny (1927); Heinrich Wagner (1959); Orin Gensler (1993); Theo Vennemann (1995); and Ariel Shisha-Halevy (2003).Others have suggested that rather than the Afro-Asiatic influencing Insular Celtic directly, both groups of languages were influenced by a now lost substrate. This was suggested by Jongeling (2000). Ranko Matasović (2012) likewise argued that the "Insular Celtic languages were subject to strong influences from an unknown, presumably non-Indo-European substratum" and found the syntactic parallelisms between Insular Celtic and Afro-Asiatic languages to be "probably not accidental". He argued that their similarities arose from "a large linguistic macro-area, encompassing parts of NW Africa, as well as large parts of Western Europe, before the arrival of the speakers of Indo-European, including Celtic".The Afro-Asiatic substrate theory, according to Raymond Hickey, "has never found much favour with scholars of the Celtic languages". The theory was criticised by Kim McCone in 2006, Graham Isaac in 2007, and Steve Hewitt in 2009. Isaac argues that the 20 points identified by Gensler are trivial, dependencies, or vacuous. Thus, he considers the theory to be not just unproven but also wrong. Instead, the similarities between Insular Celtic and Afro-Asiatic could have evolved independently.
+
+Notes

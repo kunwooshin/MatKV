@@ -1,0 +1,12 @@
+Multicable
+In stage lighting, a multicable (otherwise known as multi-core cable or mult) is a type of heavy-duty electrical cable used in theaters to power lights. The basic construction involves a bundle of individual conductors surrounded by a single outer jacket. Whereas single cables only have three conductors, multicable has ten or more. They are configured to run in six or eight-circuit varieties. Typically, both ends of multicable have a specific connector known as a Socapex Connector. Technicians then combine the cables with break-outs and break-ins, which essentially are an octopus-like adapter with one Socapex end and six to eight Edison, twist-lok, or stage pin style connectors.
+
+Use
+Multicable is used when technicians need to mount lights where no permanent circuiting options exist. Typically, mounting pipes designed for lighting use have enclosed raceways with permanent power outlets, running to a remote dimmer unit somewhere in the theater. When such options are not available, technicians have to run cable to these positions instead. Originally, it had to be done with cable bundles, running single extension cords long distances and tying or taping them into groups, or just running cable in a disorganized mess.
+Instead, several circuits can be run in a single cable, using multicables. These are used most often in theaters without on-stage raceways or in systems with portable dimming racks, which are not wired into the building. Multicable is a quick, organized way of getting a large amount of circuits away from the dimmers to the lights.
+
+Advantages
+Viewed in comparison to six individual extension cords, multicable is a neater and more organized alternative. There are fewer connectors, and the multis are labeled one to six on their adapters so technicians always know which circuit they're working on.
+
+Disadvantages
+Running multicable from source to light is particularly strenuous. Compared to running six cables one by one, multicable is much heavier. Also, because of the large amount of copper in the cable, they have very bad memory- an effect where cables will try to curl and twist in attempt to return to its original coiled state. This makes packing multicable back into coils also tricky.

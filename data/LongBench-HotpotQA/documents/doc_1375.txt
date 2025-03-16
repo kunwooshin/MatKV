@@ -1,0 +1,25 @@
+Horse Racing (video game)
+Horse Racing is an equestrian video game released by Mattel Electronics for its Intellivision video game console in 1980.  Although primarily a sports video game, Horse Racing received Mattel's "Gaming Network" branding, due to its pari-mutuel betting on horses during the game.
+The game houses 8 virtual Thoroughbred race horses residing in the fictional Rainbow Thoroughbred Stables at a fictional western Kentucky race track called Plympton Downs (based loosely on long-time sportscaster/Intellivision sales personality George Plimpton).  Each of the horses have differing racing abilities (front runner, pace keeper, come from behind, ...), and do vary from game time to game time (a horse with come from behind traits during one match may have front runner abilities during the next match).  These horses are known by their colors (instead of their post position numbers—unlike in regular horse racing).
+Horse Racing was also released by Sears for their Intellivision private-label clone, the Super Video Arcade.
+
+Gameplay
+In Intellivision's original Horse Racing game, 6 players (bettors) begin each of the 10 races on the simulated match program by checking out the race program screen; 4 horses are entered for each race, with bettors starting out with a $750 simulated bankroll.  For each of the 4 horses entered into a race, the odds—along with past performances—are listed (accessed by a side action button during placing bets).  Each bettor then keys in his/her player number (from 1 to 6 on the keypad), enters a bet pay amount against 
+his/her bankroll, then—places the bet (of a win or exacta only—by pressing [9] on the keypad) on his/her selection of horse(s).  After all bets are made, a keypad press of [0] then [ENTER] starts the race.
+The call to the post then plays.  After a brief silence, the starting gate opens up, and 4 Thoroughbred horses run away from the gate.  During the actual race, the disk/joystick is used to move a horse along, while the side action buttons perform either of 2 functions (top to coax a horse along, bottom to whip it).  Each race takes place on any of 3 different types of track:  dry, turf (grass), or muddy; additionally, the races run in length from 3 to 10 furlongs.  After the horses cross the finish line, the results are shown on the tote board as colorful horse heads (reading from right to left in finishing order), along with the elapsed time of the race.  The play screen then switches to the bet placing screen for the next race; after the full 10-race match program has run, a final GAME OVER screen shows up, with the bettors' final bankroll amounts.
+The track is horizontally scrolling, with its color changing according to the racing surface (khaki for dry, pine green for turf, and brown for muddy). A 4-stall starting gate with the horses loaded therein is shown at the start of each race.  The cheering crowd fanfare sound is played as the horses cross the finish line.
+
+The Rainbow Thoroughbred Stables
+The RTS is a fictional stable in where the race horses featured in the game are housed.  Each horse has differing abilities and personalities.  These are referred to by their colors (unlike in actual horse races where they would get entrant post position numbers in relation to the inner rail).  These are assigned a button on the keypad as follows:
+
+[1] PINK — Pink Lady
+[2] RED — Red Devil
+[3] ORANGE — Sun Shine Shake
+[4] YELLOW — Gold Torts
+[5] GREEN — Green Goblin
+[6] BLUE — Blue Boy
+[7] VIOLET (PURPLE) — Grape Ghost
+[8] WHITE — Snowy GuyOn the original prototype ROM, there was a BLACK horse called Black Maurauder; however, he got dropped from the original release of the game, and got replaced by Snowy Guy.
+
+Legacy
+Horse Racing is included in the Intellivision Lives! game collection.

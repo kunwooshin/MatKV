@@ -1,0 +1,8 @@
+U-229
+The U-229 is a cable connector currently used by the U.S. military for audio connections to field radios, typically for connecting a handset. There are five-pin and six-pin versions, the sixth pin version using the extra pin to power accessories. This type of connector is also used by the National Security Agency to load cryptographic keys into encryption equipment from a fill device.
+It is specified by the detail specification MIL-DTL-55116D .
+
+External links
+U-229 pin-outs and information
+MIL-DTL-55116 military specification
+Compilation of military radio related standards

@@ -1,0 +1,18 @@
+Critical Mass (book)
+Critical Mass: How One Thing Leads to Another, a non-fiction book by English chemist and physicist Philip Ball originally published in 2004, discusses the concept of a "physics of society". Ball discusses thinkers such as Thomas Hobbes, Lewis Mumford, Emyr Hughes, and Gottfried Achenwall who have attempted to apply (or argue against the use of) physics, chemistry, or mathematics in the study of mass social phenomena. He also discusses how the concept relates to recent research, including his own.
+
+Physics of society
+The outlines of Ball's Critical Mass, the most popular of his many noted books, beginning in various circa 2001 lectures, talks, and articles focused on what he calls a 'physics of society', similar to the social physics in the Auguste Comte sense, a subject Ball approaches using statistical mechanics viewing people as atoms or molecules that show characteristic behaviours in bulk. The following is an excerpt of his 2003 talk on the physical modeling of society:
+"There seem to be 'laws' [of] social systems that have at least something of the character of natural physical laws, in that they do not yield easily to planned and arbitrary interventions. Over the past several decades, social, economic and political scientists have begun a dialogue with physical and biological scientists to try to discover whether there is truly a 'physics of society', and if so, what its laws and principles are. In particular, they have begun to regard complex modes of human activity as collections of many interacting 'agents' - somewhat analogous to a fluid of interacting atoms or molecules, but within which there is scope for decision-making, learning and adaptation."In his 2004 book, Ball summarizes this to the effect that "to develop a physics of society, we must take a bold step that some might regard as a leap of faith and others as preposterous idealization: particles become people." Nearly as soon as he gives this definition, however, Ball falls back on the two biggest hurdles to this perspective: that of the theories of being alive and of free will, both of which seem to contradict the physics viewpoint.
+
+Other topics
+Other topics discussed in the book include the business cycle, random walks, phase transitions, bifurcation theory, traffic flow, Zipf's law, Small world phenomenon, catastrophe theory, the Prisoner's dilemma. The overall theme is one of applying modern mathematical models to social and economic phenomena.
+
+Awards
+Critical Mass was the winner of the 2005 Aventis Prize for Science Books and the 2005 Royal Society Winton Prize for Science Books.
+
+See also
+Critical mass (sociodynamics)
+Psychohistory
+Historical materialism
+Network economics

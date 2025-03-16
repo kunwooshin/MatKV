@@ -1,0 +1,284 @@
+Glossary of board games
+This glossary of board games explains commonly used terms in board games, in alphabetical order. For a list of board games, see List of board games; for terms specific to chess, see Glossary of chess; for terms specific to chess problems, see Glossary of chess problems.
+
+A
+active  
+See in play.
+
+B
+bear off  
+To remove game piece(s) from the board and out of play. Past tense: borne off.
+
+bit  
+See piece.
+
+Black  
+Used often to refer to one of the players in two-player games. Black's pieces are typically a dark color but not necessarily black (e.g. in English draughts official play they are red). Cf. White. See also White and Black in chess.
+
+board  
+Short for gameboard.
+
+C
+capture  
+A method that removes another player's piece(s) from the board. For example: in checkers, if a player jumps an opponent's piece, that piece is captured. Captured pieces are typically removed from the game. In some games, captured pieces remain in hand and can be reentered into active play (e.g. shogi, Bughouse chess). See also Game mechanics § Capture/eliminate.
+
+card  
+A piece of cardboard often bearing instructions, and usually chosen randomly from a deck by shuffling.
+
+cell  
+See hex and space.
+
+checker  
+See piece.
+
+checkerboard 
+A square gameboard with alternating dark and light-colored squares.
+
+chessboard 
+The square gameboard used in chess, having 64 squares of alternating dark and light-colors.
+
+column  
+See file.
+
+component  
+A physical item included in the game. E.g. the box itself, the board, the cards, the tokens, zipper-lock bags, inserts, rule books, etc. See also equipment.
+
+counter  
+See piece.
+
+currency  
+A scoring mechanic used by some games to determine the winner, e.g. money (Monopoly) or counters (Zohn Ahl).
+
+custodian capture 
+A capture method whereby an enemy piece is captured by being blocked on adjacent sides by opponent pieces. (Typically laterally on two sides as in Tablut and Hasami shogi, or laterally on four sides as in Go. Capture by blocking on two sides diagonally is done in Stone Warriors, and surrounding on three sides is required in Bizingo.) Also called escort capture and interception capture.
+
+custodian method 
+See custodian capture.
+
+D
+deck  
+A stack of cards.
+
+die  
+sing. of dice.
+
+dice  
+Modern cubic dice are used to generate random numbers in many games – e.g. a single die in Trivial Pursuit, or two dice per player in backgammon. Role-playing games typically use one or more polyhedral dice. Games such as Pachisi and chaupur traditionally use cowrie shells. The games Zohn Ahl and Hyena chase use dice sticks. The game yut uses yut sticks.
+
+direction of play  
+The order of turns in a multiplayer game, e.g. clockwise around the board means the player to the left has the next turn. 
+  
+disc  
+See piece.   
+ 
+displacement capture  
+A capture method whereby a capturing piece replaces the captured piece on its square, cell, or point on the gameboard.
+
+doublet  
+1.  The same number displayed by two dice.
+2.  The number displayed by one or more die is doubled.
+3.  The union of two game pieces to move as one.
+
+E
+empty board  
+Many games start with all pieces out of play; for example, Nine men's morris, Conspirateurs, Entropy, and Go (if a handicap is not employed). Some gameboards feature staging areas for the pieces before any are put into play; for example, Ludo and Malefiz.
+
+enemy  
+An enemy piece is a piece in the same army or set of pieces controlled by the opponent; or, in a multiplayer game, a piece controlled by the partner of an opponent.
+
+Engine-building  
+A board game genre and gameplay mechanic that involves adding and modifying combinations of abilities or resources to assemble a virtuous circle of increasingly powerful and productive outcomes. A successfully built engine can create a snowball or domino effect.
+
+equipment  
+Refers to physical components required to play a game, e.g. pieces, gameboard, dice.
+
+escort capture  
+See custodian capture.
+
+exchange  
+For games featuring captures, the capture of a piece followed immediately by the opponent's recapture.
+
+F
+file 
+A straight line of spaces running from top to bottom of a gameboard at right angle to a rank. Also called column.
+
+friendly  
+A piece in the same army or set of pieces controlled by a player; or, in a multiplayer game, a piece controlled by a player's partner.
+
+G
+gameboard  
+Or game board. The (usually quadrilateral) marked surface on which one plays a board game. The namesake of the board game, gameboards would seem to be a necessary and sufficient condition of the genre, though card games that do not use a standard deck of cards (as well as games that use neither cards nor a gameboard) are often colloquially included. Most games use a standardized and unchanging board (chess, Go, and backgammon each have such a board), but some games use a modular board whose component tiles or cards can assume varying layouts from one session to another, or even during gameplay.
+
+game component  
+See component.
+
+game equipment  
+See equipment.
+
+game piece  
+See piece.
+
+gameplay  
+The execution of a game; or specifically its strategy, tactics, conventions, or mechanics.
+
+gamer  
+A person who plays board game(s). See also player.
+ 
+gamespace  
+A gameboard for a three-dimensional game (e.g., the 5×5×5 cubic board for Raumschach).
+
+grace  
+An extra turn.
+
+H
+handicap  
+An advantage given to a weaker side at the start of a game to level the winning chances against a stronger opponent. Go has formal handicap systems (see Go handicaps); chess has traditional handicap methods not used in rated competitions (see Chess handicap).
+
+hex  
+In hexagon-based board games, this is the common term for a standard space on the board. This is most often used in wargaming, though many abstract strategy games such as Abalone, Agon, hexagonal chess, GIPF project games, and connection games use hexagonal layouts.
+
+huff  
+The forfeiture of a piece as a penalty for infringing a rule.
+
+I
+in hand  
+A piece in hand is one currently not in play on the gameboard, but may be entered into play on a turn. Examples are captured pieces in shogi or Bughouse chess, able to be dropped into play as a move; or pieces that begin the game in a staging area off the main board, as in Ludo or Chessence.
+
+in play  
+A piece active on the main board, not in hand or in a staging area. Antonym: out of play.
+
+interception capture  
+See custodian capture.
+
+intervention capture  
+A capture method the reverse of the custodian method: a player captures two opponent pieces by moving to occupy the empty space between them.
+
+J
+jump  
+To move a piece over one or more pieces or spaces on the gameboard. Depending on the context, jumping may include  capturing an opponent's piece. See also Game mechanics § Capture/eliminate.
+
+L
+leap  
+See jump.
+
+M
+man  
+In chess, a piece or a pawn. In draughts, an uncrowned (i.e. not a king) piece.
+
+meeple  
+A game piece that represents a person in concept, shaped like an approximation of a person.
+
+mill  
+Three or more pieces in a line of adjacent spaces.
+
+move  
+See turn.
+
+O
+odds  
+See handicap.
+
+open board  
+A gameboard with no pieces, or one piece, in play. Typically for demonstration or instruction.
+
+order of play  
+See direction of play.
+
+orthogonal  
+A horizontal (straight left or right) or vertical (straight forward or backward) direction a piece moves on a gameboard.
+
+out of play  
+A piece not active on the main board, it might be in hand or in a staging area. Antonym: in play.
+
+over the board 
+A game played face to face with the opponent, as opposed to playing remotely (online or other means, for e.g. correspondence chess).
+
+P
+pass  
+The voluntary or involuntary forfeiture of a turn by a player.
+
+pie rule  
+Used in some two-player games to eliminate any advantage of moving first. After the first player's opening move, the second player may optionally swap sides.
+
+piece  
+Or bit, checker, chip, counter, disc, draughtsman, game piece, man, meeple, mover, pawn, player piece, playing piece, singleton, stone, token, unit. A player's representative on the gameboard made of a piece of material made to look like a known object (such as a scale model of a person, animal, or inanimate object) or otherwise general symbol. Each player may control one or more pieces. Some games involve commanding multiple pieces, such as chess pieces or Monopoly houses and hotels, that have unique designations and capabilities within the parameters of the game; in other games, such as Go, all pieces controlled by a player have the same capabilities. In some modern board games, such as Clue, there are other pieces that are not a player's representative (i.e. weapons). In some games, such as mancala games, pieces may not represent or belong to any particular player. Mancala pieces are undifferentiated and  typically seeds but sometimes beans, coins, cowry shells, ivory balls, or pebbles. Note that in chess usage the term piece in some contexts only refers to some of the pieces, which are also known as chessmen. See also Counter (board wargames).
+playboard  
+See gameboard.
+
+player  
+The participant(s) in the game. See also gamer.
+
+playing area 
+The spaces on a gameboard for use by pieces in play.
+
+playspace 
+See playing area.
+
+point  
+See space.
+
+polyhedral dice  
+Dice that are not cubes, usually some kind of Platonic solid. Polyhedral dice are generally referred to through the construction "d + number of sides" (ex. d4, d8, d12, d20). See also dice.
+
+R
+rank 
+A straight line of spaces running from one side to the other across a gameboard at right angle to a file. Also called row.
+
+replacement capture  
+See displacement capture.
+
+row  
+See rank.
+
+rule  
+A condition or stipulation by which a game is played.
+
+ruleset  
+The comprehensive set of rules which define and govern a game.
+
+S
+singleton  
+A game piece that is isolated and often prone to attack.
+
+space  
+A physical unit of progress on a gameboard delimited by a distinct border, and not further divisible according to the game's rules. Alternatively, a unique position on the board on which a piece in play may be located. For example, in Go, the pieces are placed on grid line intersections called points, and not in the areas bounded by the borders, as in chess. The bounded area geometries can be square (e.g. chess), rectangular (e.g. shogi), hexagonal (e.g. Chinese Checkers), triangular (e.g. Bizingo), quadrilateral (e.g. three-player chess), cubic (e.g. Raumschach), or other shapes (e.g. Circular chess). Cf. gamespace. See also Game mechanics § Movement.
+
+square  
+See space.
+
+staging area  
+A space set aside from the main gameboard to contain pieces in hand. In Ludo, the staging areas are called yards. In shogi, pieces in hand are placed on komadai.
+
+starting area  
+See staging area.  
+  
+stone  
+See piece.
+
+swap  
+See exchange.
+
+T
+take  
+See capture.
+
+token  
+See piece.
+
+trade  
+See exchange.
+
+triplet  
+The same number displayed by three dice.
+
+turn  
+A player's opportunity to move a piece or make a decision that influences gameplay. Turns to move usually alternate equally between competing players or teams. See also Turn-based game.
+
+W
+White  
+Used often to refer to one of the players in two-player games. White's pieces are typically a light color but not necessarily white (e.g. backgammon sets use various colors for White; shogi sets have no color distinction between sides). White often moves first but not always (e.g. Black moves first in English draughts, shogi, and Go). Cf. Black. See also White and Black in chess.
+
+Worker Placement 
+A genre of board games in which players take turns selecting an action while optimizing their resources and making meaningful decisions.
+
+Notes

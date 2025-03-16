@@ -1,0 +1,8 @@
+SR connector
+An SR connector, or CP connector (from Russian: Соединитель Радиочастотный, radio frequency connector) is a type of Russian made RF connector for coaxial cables. Based on the American BNC connector, the SR connector differs slightly in dimensions due to discrepancies in imperial to metric conversion, though with some force they can still be mated. There are however types of SR connectors that do not resemble their American counterpart.
+Most SR connectors are variants of SR-50 (50 Ω) or SR-75 (75 Ω) versions, with the SR-75 typically having a thinner center pin. They often resemble C connectors in shape, and have threaded inserts similar to N connectors. Further numerical suffixes denote specific kinds of connectors, for instance the CP 75-164 is a much larger high power connector, designed for upwards of 3000W, with a similar appearance to an N or UHF type. The various letters after the number refer to the dielectric material used.
+Below is a breakdown of the various suffixes used in the order they would appear:
+
+See also
+BNC connector
+RF connector

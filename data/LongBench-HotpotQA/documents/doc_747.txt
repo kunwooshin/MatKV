@@ -1,0 +1,42 @@
+Leucippus
+Leucippus (; Greek: Λεύκιππος, Leúkippos; fl. 5th century BCE) was a pre-Socratic Greek philosopher who has been credited as the first philosopher to develop a theory of atomism.
+Leucippus' reputation, even in antiquity, was obscured by the reputation of his much more famous pupil, Democritus, who is also credited with the first development of atomic theory. Few details about Leucippus' life are known, and even his historical existence has on occasion been questioned.
+
+Biography
+Leucippus's dates are not recorded and he is often mentioned in conjunction with his more well-known pupil Democritus. Diogenes Laertius lists possible birthplaces as Miletus, Abdera and Elea. Some sources claim that around 440 or 430 BCE Leucippus founded a school at Abdera, with which his pupil, Democritus, was closely associated. There is mention that a Leucippus founded the city of Metapontum, which honored this Leucippus with a coin.
+
+Philosophical views
+"Nothing happens at random, but everything from reason and by necessity."
+Leucippus is typically associated with atomism—the idea that the only two things are atoms, which are imperishable, indivisible elements that compose everything, and void, which is the space that atoms do occupy or can occupy. It is difficult to determine which contributions to atomism come from Democritus and which come from Leucippus. Aristotle and his student Theophrastus explicitly credit Leucippus with the invention of atomism. In Aristotelian terms, Leucippus agreed with the Eleatic argument that "true being does not admit of vacuum" and there can be no movement in the absence of vacuum. Leucippus contended that since movement exists, there must be empty space. However, he concludes that vacuum is identified with nonbeing, since "nothing" cannot really be. According to Aristotle, Leucippus differed from the Eleatics in not being encumbered by the "conceptual intermingling" of being and non-being, and Plato made the necessary distinction between "grades of being and types of negation".
+
+Writings
+According to Theophrastus, Leucippus was the author of a work called The Great World System that was otherwise typically attributed to Democritus, which has not survived. A single quotation survives from another work attributed to him called On Mind.
+
+Legacy
+A brief notice in Diogenes Laërtius's life of Epicurus says that on the testimony of Epicurus, Leucippus never existed. As the philosophical heir of Democritus, Epicurus's word has some weight, and indeed a controversy over this matter raged in German scholarship for many years at the close of the 19th century. Furthermore, in his Corpus Democriteum, Thrasyllus of Alexandria, an astrologer and writer living under the emperor Tiberius (14–37 CE), compiled a list of writings on atomism that he attributed to Democritus to the exclusion of Leucippus. The present consensus among the world's historians of philosophy is that this Leucippus is historical. Moreover, it is not clear how to interpret Epicurus' comment in the first place. Epicurus said that there was no philosopher Leucippus, which might mean that Leucippus never existed, but it also might mean that Leucippus existed but was not a philosopher. As far as ancient evidence of his existence is concerned, it must be mentioned that Aristotle, who lived closer in time to Leucippus than Epicurus, attributes to Leucippus the framework of atomism as a philosophical system, lending more credibility to the thesis that Leucippus existed.
+Fragments and doxographical reports about Leucippus were collected by Hermann Diels (1848–1922), firstly in Doxographi Graeci (Berlin, 1879, reprint Berlin: de Gruyter, 1929) and then in Die Fragmente der Vorsokratiker, Berlin, 1903, 6th ed., rev. by Walther Kranz (Berlin: Weidmann, 1952; the editions after the 6th are mainly reprints with little or no change.) Diels was the leading proponent for a historical Leucippus.
+
+See also
+Indeterminism
+Kanada
+
+Notes
+Bibliography
+Surviving Fragments and Testimonia
+In the Diels-Kranz numbering system for fragments of the pre-Socratic philosophers, Leucippus is number 67. The following works contain Diels-Kranz fragments.
+ Laërtius, Diogenes (1925). "Others: Leucippus" . Lives of the Eminent Philosophers. Vol. 2:9. Translated by Hicks, Robert Drew (Two volume ed.). Loeb Classical Library. § 30-33. - A1
+ Laërtius, Diogenes (1925). "Epicurus" . Lives of the Eminent Philosophers. Vol. 2:10. Translated by Hicks, Robert Drew (Two volume ed.). Loeb Classical Library. § 13. - A2
+Simplicius, Commentary on Aristotle's Physics - A3, A8, A13-14,20
+Clement of Alexandria, Stromata - A4, A37
+Pseudo-Galen, History of philosophy - A5
+Aristotle, Metaphysics - A6, A18
+Aristotle, On Generation and Corruption -A7, A9
+Aristotle, On The Heavens - A19
+Aristotle, On the Soul - A28
+Hippolytus, Refutation of all Heresies A10
+Cicero, Academica - A11
+Stobaeus, Anthologium - A12, A15, A16, A21, A22, A23, A24, A25, A26, A29, A30, A31, A32, A34, A35, A36, B2
+Epiphanius - A33
+Achilles Tatius - B1These fragments are collected together in:
+
+Hermann Diels; Walther Kranz (1963). Die Fragmente der Vorsokratiker (in Ancient Greek). Vol. 2. Hildesheim Weidmann. ISBN 978-3-615-12200-8. Retrieved 8 April 2022.

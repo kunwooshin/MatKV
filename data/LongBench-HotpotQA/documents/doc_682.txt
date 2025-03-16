@@ -1,0 +1,16 @@
+Cable gland
+A cable gland (more often known in the U.S. as a cord grip, cable strain relief, cable connector or cable fitting) is a device designed to attach and secure the end of an electrical cable to the equipment. A cable gland provides strain-relief and connects by a means suitable for the type and description of cable for which it is designed—including provision for making electrical connection to the armour or braid and lead or aluminium sheath of the cable, if any. Cable glands may also be used for sealing cables passing through bulkheads or gland plates. Cable glands are mostly used for cables with diameters between 1 mm and 75 mm.Cable glands are commonly defined as mechanical cable entry devices.  They are used throughout a number of industries in conjunction with cable and wiring used in electrical instrumentation and automation systems. Cable glands may be used on all types of electrical power, control, instrumentation, data and telecommunications cables.  They are used as a sealing and termination device to ensure that the characteristics of the enclosure which the cable enters can be maintained adequately. Cable glands are made of various plastics, and steel, brass or aluminum for industrial usage. Glands intended to resist dripping water or water pressure will include synthetic rubber or other types of elastomer seals.  Certain types of cable glands may also serve to prevent entry of flammable gas into equipment enclosures, for electrical equipment in hazardous areas. 
+Although cable glands are often called "connectors", a technical distinction can be made in the terminology, which differentiates them from quick-disconnect, conducting electrical connectors. 
+For routing pre-terminated cables (cables with connectors), split cable glands can be used. These cable glands consist of three parts (two gland halves and a split sealing grommet) which are screwed with a hexagonal locknut (like normal cable glands). Thus, pre-assembled cables can be routed without removing the plugs. Split cable glands can reach an ingress protection of up to IP66/IP68 and NEMA 4X.
+Alternatively, split cable entry systems can be used (normally consisting of a hard frame and several sealing grommets) to route a large number of pre-terminated cables through one wall cut-out.
+There are at least three types of thread standards used:
+
+Panzergewinde (PG standard)
+Metric thread
+National Pipe Thread (inch system)
+
+See also
+Electrical connector
+Pipe thread
+Steel conduit thread
+Feedthrough
