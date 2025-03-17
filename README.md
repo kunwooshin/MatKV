@@ -6,7 +6,11 @@
     $ conda activate matkv
     $ pip3 install -r requirements.txt
    ```
-2. async io (nvme ?)
+2. async io (nvme)
+   ```bash
+    $ apt install libaio-dev
+   ```
+
 3. llama huggingface
 
 ### Run experiment
