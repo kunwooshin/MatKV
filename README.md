@@ -37,12 +37,16 @@ If NVMe Storage is not available
         return [self.load_kv_cache(doc.id) for doc in docs]
    ```
 ### Run experiment
+(1) Chunking documents and update vector DB, store key-value tensors for each chunk in SSD
    ```bash
-   $ ./preprocessing.sh # (1) update vector DB (2) store key-value tensors for each document chunk in SSD
+   $ ./preprocessing.sh
    ```
+(2) Batch processing. set use_past_cache = True for MatKV, False for Vanilla
    ```bash
    $ ./eval_batch.sh
    ```
+(3) Overlapping using multiprocess (only for MatKV)
    ```bash
-   $ ./eval_pp.sh # pipelined process (Overlapping)
+   $ ./eval_pp.sh
    ```
+(4) Generated Asnwers using HotpotQA dataset from LongBench
