@@ -16,12 +16,12 @@ https://huggingface.co/meta-llama/Llama-3.1-70B
    ```
 ### DeepNVMe for optimized tensor I/O
 https://github.com/deepspeedai/DeepSpeedExamples/tree/master/deepnvme/file_access
-NVMe Storage is required for optimized tensor I/O using DeepNVMe's async_io operator
+NVMe Storage is required for optimized tensor I/O using DeepNVMe's `async_io` operator
    ```base
    $ apt install libaio-dev
    ```
 If NVMe Storage is not available
-(1) You should use save_kv_cache() instead of save_kv_cache_aio() inside preprocess_documents() in preprocessing.py
+(1) You should use `save_kv_cache()` instead of `save_kv_cache_aio()` inside `preprocess_documents()` in `preprocessing.py`
 
    ```python
    def process_documents(self):
@@ -30,7 +30,7 @@ If NVMe Storage is not available
        ...
    ```
 
-(2) You should use load_kv_cache() instead of load_kv_cache_aio() inside load_all_caches() in eval_batch.py (also in eval_pp.py)
+(2) You should use `load_kv_cache()` instead of `load_kv_cache_aio()` inside l`oad_all_caches()` in `eval_batch.py` (also in `eval_pp.py`)
 
    ```python
    def load_all_caches(self, docs: List[Document]):
@@ -43,16 +43,16 @@ Chunking documents and update vector DB, store key-value tensors for each chunk 
    $ ./src/preprocessing.sh
    ```
 ### Inference Latency Experiments
-(1) Batch processing. set use_past_cache = True for MatKV, False for Vanilla
+(1) Batch processing. set `use_past_cache = True` for MatKV, `False` for Vanilla
    ```bash
    $ ./src/eval_batch.sh
    ```
-(2) Overlapping using multiprocess (only for MatKV)
+(2) Overlapping using `multiprocessing` (only for MatKV)
    ```bash
    $ ./src/eval_pp.sh
    ```
 ### Power Consumption Experiments
-You should use ./power_monitor-smi.sh instead of ./power_monitor.sh in eval_batch_power_consumption.sh (also in ./eval_pp_power_consumption.sh)
+You should use `./power_monitor-smi.sh` instead of `./power_monitor.sh` in `eval_batch_power_consumption.sh` (also in `./eval_pp_power_consumption.sh`)
    ```bash 
    $ ./src/eval_batch_power_consumption.sh
    $ ./src/eval_pp_power_consumption.sh
