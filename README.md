@@ -40,21 +40,21 @@ If NVMe Storage is not available
 ### Preprocessing
 Chunking documents and update vector DB, store key-value tensors for each chunk in SSD
    ```bash
-   $ ./preprocessing.sh
+   $ ./src/preprocessing.sh
    ```
 ### Inference Latency Experiments
 (1) Batch processing. set use_past_cache = True for MatKV, False for Vanilla
    ```bash
-   $ ./eval_batch.sh
+   $ ./src/eval_batch.sh
    ```
 (2) Overlapping using multiprocess (only for MatKV)
    ```bash
-   $ ./eval_pp.sh
+   $ ./src/eval_pp.sh
    ```
 ### Power Consumption Experiments
 You should use ./power_monitor-smi.sh instead of ./power_monitor.sh in eval_batch_power_consumption.sh (also in ./eval_pp_power_consumption.sh)
    ```bash 
-   $ ./eval_batch_power_consumption.sh
-   $ ./eval_pp_power_consumption.sh
+   $ ./src/eval_batch_power_consumption.sh
+   $ ./src/eval_pp_power_consumption.sh
    ```
 ### Generation Accuracy Experiments
