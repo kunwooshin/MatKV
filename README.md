@@ -45,6 +45,7 @@ Chunk documents and update vector DB. Then, store key-value tensors for each chu
    ```bash
    $ ./src/preprocessing.sh
    ```
+Make sure to set a separate directory to store the vector DB and cache for each configuration (including different LLMs and datasets).
 
 ### Inference Latency Experiments
 (1) Script file for batch processing. Set `use_past_cache = True` for MatKV, `False` for Vanilla.
@@ -64,6 +65,7 @@ Use `./power_monitor-smi.sh` instead of `./power_monitor.sh` in both `eval_batch
    $ ./src/eval_batch_power_consumption.sh
    $ ./src/eval_pp_power_consumption.sh
    ```
+Ensure that the appropriate arguments are set within each script file.
 
 ### Generation Accuracy Experiments
 Preprocess new documents from `./data/LongBench-HotpotQA/documents` and replace the path of the question source file in `eval_batch.sh`.
