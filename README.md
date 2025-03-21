@@ -27,6 +27,7 @@ If NVMe Storage is not available
    def process_documents(self):
        ...
          self.save_kv_cache(chunks)
+       ...
    ```
 
 (2) you should use load_kv_cache() instead of load_kv_cache_aio() inside load_all_caches() in eval_batch.py (also in eval_pp.py)
