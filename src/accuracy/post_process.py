@@ -13,7 +13,7 @@ for input_file in input_files:
     output_file = os.path.splitext(base_name)[0] + ".jsonl"
 
     with open('./raw/'+input_file, "r", encoding="utf-8") as fin, \
-         open('./raw/'+output_file, "w", encoding="utf-8") as fout:
+         open(+output_file, "w", encoding="utf-8") as fout:
 
         for i, line in enumerate(fin):
             line = line.strip()
