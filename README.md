@@ -21,7 +21,7 @@ NVMe Storage is required for optimized tensor I/O using DeepNVMe's async_io oper
    $ apt install libaio-dev
    ```
 If NVMe Storage is not available
-(1) you should use save_kv_cache() instead of save_kv_cache_aio() inside preprocess_documents() in preprocessing.py
+(1) You should use save_kv_cache() instead of save_kv_cache_aio() inside preprocess_documents() in preprocessing.py
 
    ```python
    def process_documents(self):
@@ -30,23 +30,31 @@ If NVMe Storage is not available
        ...
    ```
 
-(2) you should use load_kv_cache() instead of load_kv_cache_aio() inside load_all_caches() in eval_batch.py (also in eval_pp.py)
+(2) You should use load_kv_cache() instead of load_kv_cache_aio() inside load_all_caches() in eval_batch.py (also in eval_pp.py)
 
    ```python
    def load_all_caches(self, docs: List[Document]):
         return [self.load_kv_cache(doc.id) for doc in docs]
    ```
-### Run experiment
-(1) Chunking documents and update vector DB, store key-value tensors for each chunk in SSD
+## Run experiment
+### Preprocessing
+Chunking documents and update vector DB, store key-value tensors for each chunk in SSD
    ```bash
    $ ./preprocessing.sh
    ```
-(2) Batch processing. set use_past_cache = True for MatKV, False for Vanilla
+### Inference Latency Experiments
+(1) Batch processing. set use_past_cache = True for MatKV, False for Vanilla
    ```bash
    $ ./eval_batch.sh
    ```
-(3) Overlapping using multiprocess (only for MatKV)
+(2) Overlapping using multiprocess (only for MatKV)
    ```bash
    $ ./eval_pp.sh
    ```
-(4) Generated Asnwers using HotpotQA dataset from LongBench
+### Power Consumption Experiments
+You should use ./power_monitor-smi.sh instead of ./power_monitor.sh in eval_batch_power_consumption.sh (also in ./eval_pp_power_consumption.sh)
+   ```bash 
+   $ ./eval_batch_power_consumption.sh
+   $ ./eval_pp_power_consumption.sh
+   ```
+### Generation Accuracy Experiments
