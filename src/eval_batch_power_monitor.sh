@@ -18,7 +18,7 @@ while true; do
     if grep -q "MODEL LOADED" /tmp/eval_batch_log.txt; then
         echo "[eval_batch.sh] model loaded. start monitoring power"
 
-        ./power_monitor-smi.sh &
+        ./power_monitor-ipmi.sh & #./power_monitor-smi.sh for GPU power consumption monitoring
         monitor_pid=$!
         break
     fi
