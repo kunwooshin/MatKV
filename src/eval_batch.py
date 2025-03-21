@@ -202,24 +202,11 @@ class QueryProcessor():
         return doc, q
     
     def load_all_caches(self, docs: List[Document]):
-        return [self.load_kv_cache(doc.id) for doc in docs]
+        return [self.load_kv_cache_aio(doc.id) for doc in docs]
 
     def load_kv_cache(self, doc_id: str):
         cache_file = os.path.join(self.cache_dir, f"{doc_id}.pt")
         return torch.load(cache_file, weights_only=True, map_location="cuda")
-
-    def load_kv_cache_gds(self, doc_id: str):
-        in_file = os.path.join(self.cache_dir, f"{doc_id}.pt")
-        file_sz = os.path.getsize(in_file)
-
-        file_sz = file_sz//2
-        
-        gds_buffer = self.gds_handle.new_pinned_device_tensor(file_sz, torch.empty(0, dtype=torch.float16, device='cuda',requires_grad=False)) 
-        # buffer register failed:device pointer already registered
-        loaded_tensor = file_read(in_file, self.gds_handle, gds_buffer)
-        
-        kv_cache = restore_tensor_shape(loaded_tensor, self.num_layers, self.num_kv_heads, self.dim)
-        return kv_cache
     
     def load_kv_cache_aio(self, doc_id: str):
         in_file = os.path.join(self.cache_dir, f"{doc_id}.pt")
