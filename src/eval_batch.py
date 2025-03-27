@@ -191,10 +191,10 @@ class QueryProcessor():
 
         batch_docs = []
         for i in range(len(queries)):
-            # ids = outputs['ids'][i]
-            # documents = outputs["documents"][i]
-            ids = outputs['ids'][i][::-1]
-            documents = outputs["documents"][i][::-1]
+            ids = outputs['ids'][i]
+            documents = outputs["documents"][i]
+            # ids = outputs['ids'][i][::-1] # use this for matkv-reverse
+            # documents = outputs["documents"][i][::-1] # use this for matkv-reverse
             docs = [Document(id, text) for id, text in zip(ids, documents)]
             batch_docs.append(docs)
         return batch_docs
