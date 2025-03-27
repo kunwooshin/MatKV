@@ -211,7 +211,7 @@ class QueryProcessor():
         return doc, q
     
     def load_all_caches(self, docs: List[Document]):
-        return [self.load_kv_cache(doc.id) for doc in docs]
+        return [self.load_kv_cache_aio(doc.id) for doc in docs] # load_kv_cache(doc.id) # if aio is unavailable
 
     def load_kv_cache(self, doc_id: str):
         cache_file = os.path.join(self.cache_dir, f"{doc_id}.pt")
