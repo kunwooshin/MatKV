@@ -15,9 +15,9 @@ import pathlib
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,  # 4-bit로 로드
-    bnb_4bit_compute_dtype=torch.float16,
-    bnb_4bit_use_double_quant=True,
-    bnb_4bit_quant_type="nf4"
+    bnb_4bit_compute_dtype=torch.float16,  # 연산 시 float16 사용
+    bnb_4bit_use_double_quant=True,  # 더블 양자화 사용 (메모리 최적화)
+    bnb_4bit_quant_type="nf4"  # NormalFloat4 (nf4) 양자화 적용
 )
 
 def file_read(inp_f, handle, gpu_buffer):
@@ -44,7 +44,7 @@ def restore_tensor_shape(flattened_tensor, num_layers, num_kv_heads, dim):
         offset += each_layer
         
         restored_cache.append((key, value))
-
+        # print(restored_cache[0][0].shape)
     return tuple(restored_cache)
     
 def get_chroma_client(dir: str):
@@ -67,14 +67,18 @@ class QueryProcessor():
         db_dir: str,
         cache_dir: str,
         top_k: int = 4,
-        model_name: str = "meta-llama/Llama-3.1-70B", # "meta-llama/Llama-3.1-8B" or "meta-llama/Llama-3.2-3B",
+        # model_name: str = "meta-llama/Llama-3.1-8B",
+        model_name: str = "meta-llama/Llama-3.1-70B",
+        # model_name: str = "meta-llama/Llama-3.2-3B",
         use_past_cache: bool = True,
+        log_file: str = "log.txt"
     ):
         self.query_file = query_file
         self.cache_dir = cache_dir
         self.top_k = top_k
         self.use_past_cache = use_past_cache
         self.vectordb = get_chroma_client(db_dir)
+        self.log_file = log_file
         
         print(f"LOADING MODEL {model_name} ...", flush =True)
         init_time = time.perf_counter()
@@ -85,7 +89,7 @@ class QueryProcessor():
         self.model = AutoModelForCausalLM.from_pretrained(
         model_name,
         torch_dtype=torch.float16,
-        quantization_config=bnb_config, # only included for 70B model
+        quantization_config=bnb_config,
         device_map="auto",
         )
 
@@ -94,7 +98,7 @@ class QueryProcessor():
         self.num_layers = config.num_hidden_layers
         self.dim = config.hidden_size//config.num_attention_heads
         self.num_kv_heads = config.num_key_value_heads
-        
+        # print(self.num_layers, self.dim, self.num_kv_heads) # 32 128 8
         # self.gds_handle = GDSBuilder().load().gds_handle()
         self.aio_handle = AsyncIOBuilder().load().aio_handle()
         if self.tokenizer.pad_token is None:
@@ -111,7 +115,7 @@ class QueryProcessor():
         batch_count = 0
         # BATCH
         total_time = [0.0, 0.0]
-
+        
         self.tokenizer.padding_side = "left"
         
         with open(self.query_file) as f:
@@ -124,7 +128,6 @@ class QueryProcessor():
                 if len(batch_queries) == bsz:
                     batch_count += 1
                     batch_top_k_docs = self.find_top_k_docs(batch_queries)
-
                     start = time.perf_counter()
                     ##### KV-SSD #####
                     if self.use_past_cache:
@@ -133,6 +136,9 @@ class QueryProcessor():
                         caches = [self.load_all_caches(batch_top_k_docs[idx]) for idx in range(len(batch_queries))]
                         if bsz == 1:
                             past_kv_caches = DynamicCache.from_legacy_cache(self.concat_caches_single(caches[0]))
+                            # print(len(past_kv_caches))
+                            # print(len(past_kv_caches[0]))
+                            # print(past_kv_caches[0][0].shape)
                         else:
                             past_kv_caches_no_pad = self.concat_caches(caches)
                             past_kv_caches = self.pad_past_key_values(past_kv_caches_no_pad[0], past_kv_caches_no_pad[1]) 
@@ -152,7 +158,7 @@ class QueryProcessor():
                         for idx in range(len(batch_queries))
                     ]
                         total_time = self.generate_response(batch_inputs, 
-                        max_new_tokens=max_new_tokens,total_time=total_time)
+                        max_new_tokens=max_new_tokens, total_time=total_time)
 
                     end = time.perf_counter()
                     elapsed += (end - start)
@@ -185,28 +191,44 @@ class QueryProcessor():
 
         batch_docs = []
         for i in range(len(queries)):
-            ids = outputs['ids'][i]
-            documents = outputs["documents"][i]
+            # ids = outputs['ids'][i]
+            # documents = outputs["documents"][i]
+            ids = outputs['ids'][i][::-1]
+            documents = outputs["documents"][i][::-1]
             docs = [Document(id, text) for id, text in zip(ids, documents)]
             batch_docs.append(docs)
         return batch_docs
 
     def concatenate_query_and_doc(self, docs: List[Document], query: str):
         input_text = "".join([doc.text for doc in docs])
-        input_text += f"\n\nAnswer the following Question, given the relevant documents above. Answer without explanation. \n\nQuestion: {query}\n\nAnswer:"
+        input_text += f"\n\nPlease answer the user's question based on these documents above. Only generate the short answer without explanation. \n\nQuestion: {query}\n\nAnswer:"
+
         return input_text
 
     def seperate_query_and_doc(self, docs: List[Document], query: str):
         doc = "".join([doc.text for doc in docs])
-        q = f"\n\nAnswer the following Question, given the relevant documents above. Answer without explanation. \n\nQuestion: {query}\n\nAnswer:"
+        q = f"\n\nPlease answer the user's question based on these documents above. Only generate the short answer without explanation. \n\nQuestion: {query}\n\nAnswer:"
         return doc, q
     
     def load_all_caches(self, docs: List[Document]):
-        return [self.load_kv_cache_aio(doc.id) for doc in docs]
+        return [self.load_kv_cache(doc.id) for doc in docs]
 
     def load_kv_cache(self, doc_id: str):
         cache_file = os.path.join(self.cache_dir, f"{doc_id}.pt")
         return torch.load(cache_file, weights_only=True, map_location="cuda")
+
+    def load_kv_cache_gds(self, doc_id: str):
+        in_file = os.path.join(self.cache_dir, f"{doc_id}.pt")
+        file_sz = os.path.getsize(in_file)
+
+        file_sz = file_sz//2
+        
+        gds_buffer = self.gds_handle.new_pinned_device_tensor(file_sz, torch.empty(0, dtype=torch.float16, device='cuda',requires_grad=False)) 
+        # buffer register failed:device pointer already registered
+        loaded_tensor = file_read(in_file, self.gds_handle, gds_buffer)
+        
+        kv_cache = restore_tensor_shape(loaded_tensor, self.num_layers, self.num_kv_heads, self.dim)
+        return kv_cache
     
     def load_kv_cache_aio(self, doc_id: str):
         in_file = os.path.join(self.cache_dir, f"{doc_id}.pt")
@@ -216,6 +238,7 @@ class QueryProcessor():
         bounce_buffer = torch.empty(num_elements, dtype=torch.float16).pin_memory()
         
         loaded_tensor = file_read(in_file, self.aio_handle, bounce_buffer)
+        
         kv_cache = restore_tensor_shape(loaded_tensor, self.num_layers, self.num_kv_heads, self.dim)
         return kv_cache
     
@@ -336,6 +359,8 @@ class QueryProcessor():
                 "input_ids": input_ids, # torch.Size([1, 1054])
                 "attention_mask": attention_mask
             }
+            
+        prompt_length = tokens['input_ids'].shape[1]
         
         with torch.no_grad():    
             output_tokens = self.model.generate(
@@ -356,7 +381,7 @@ class QueryProcessor():
         unit_prefill = end_prefill - start_prefill
         # print(f"prefill 1 request: {unit_prefill:6f} seconds")
         total_time[0] += unit_prefill
-
+        
         start_decode = time.perf_counter()
         with torch.no_grad():
             outputs = self.model.generate(
@@ -364,8 +389,10 @@ class QueryProcessor():
                 attention_mask = attention_mask,
                 max_new_tokens=max_new_tokens-1,
                 use_cache=True,
+                # use_cache=False,
                 past_key_values=past_key_values,
-                pad_token_id=self.tokenizer.eos_token_id,
+                # pad_token_id=self.tokenizer.eos_token_id,
+                eos_token_id=self.tokenizer.eos_token_id,
                 return_dict_in_generate=True,
                 return_legacy_cache=True,
             )
@@ -373,11 +400,17 @@ class QueryProcessor():
         
         end_decode = time.perf_counter()
         unit_decode = end_decode - start_decode
-        # print(f"decode 1 request: {unit_decode:6f} seconds")
+            
         total_time[1] += unit_decode
-        # print("Padding side:", self.tokenizer.padding_side)
-        # generated_text = self.tokenizer.batch_decode(outputs.sequences, skip_special_tokens=True)
-        # print("Generated Text:", generated_text[0][1000:])
+        
+        # ONLY FOR TESTING ACCURACY (HotpotQA)
+        # generated_answers = outputs.sequences[:, prompt_length:]
+        # generated_text = self.tokenizer.batch_decode(generated_answers, skip_special_tokens=True)
+            
+        # with open(self.log_file, "a", encoding="utf-8") as lf:
+        #     for line in generated_text:
+        #         json_line = {"answer": line}
+        #         lf.write(json.dumps(json_line, ensure_ascii=False) + "\n")
         return total_time
                 
 def main(
@@ -389,6 +422,7 @@ def main(
     bsz: int = 1,
     max_new_tokens: int = 100,
     total_num: int = 100,
+    log_file: str = "log.txt"
 ):
     logging.set_verbosity_error()
     processor = QueryProcessor(
@@ -397,9 +431,11 @@ def main(
         cache_dir=cache_dir,
         top_k=top_k,
         use_past_cache=use_past_cache,
+        log_file=log_file
     )
     t0 = time.perf_counter()
     processor.process_query(bsz=bsz, max_new_tokens=max_new_tokens, total_num=total_num)
     print(f"TOTAL: {time.perf_counter()-t0:.4f} seconds")
+    
 if __name__ == "__main__":
     fire.Fire(main)
