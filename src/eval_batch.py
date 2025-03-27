@@ -224,7 +224,6 @@ class QueryProcessor():
         file_sz = file_sz//2
         
         gds_buffer = self.gds_handle.new_pinned_device_tensor(file_sz, torch.empty(0, dtype=torch.float16, device='cuda',requires_grad=False)) 
-        # buffer register failed:device pointer already registered
         loaded_tensor = file_read(in_file, self.gds_handle, gds_buffer)
         
         kv_cache = restore_tensor_shape(loaded_tensor, self.num_layers, self.num_kv_heads, self.dim)
