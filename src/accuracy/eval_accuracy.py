@@ -2,25 +2,69 @@ import json
 from rouge_score import rouge_scorer
 from bert_score import score
 
-# 1) Load JSONL files
-references = []
-with open('answer.jsonl', 'r', encoding='utf-8') as f:
-    for line in f:
-        references.append(json.loads(line.strip()))
-
-ref_dict = {item["id"]: item["answer"] for item in references}
+import re
+import string
+from collections import Counter
 
 # List of generated JSONL filenames
 generated_files = [
-    "vanilla.jsonl",
-    "matkv.jsonl",   # add more files as needed
-    "matkv-reverse.jsonl"
+    "vanilla-top5-instruct.jsonl",
+    "matkv-top5-instruct.jsonl"
 ]
+
+def normalize_answer(s):
+    """Lower text and remove punctuation, articles and extra whitespace."""
+
+    def remove_articles(text):
+        return re.sub(r"\b(a|an|the)\b", " ", text)
+
+    def white_space_fix(text):
+        return " ".join(text.split())
+
+    def remove_punc(text):
+        exclude = set(string.punctuation)
+        return "".join(ch for ch in text if ch not in exclude)
+
+    def lower(text):
+        return text.lower()
+
+    return white_space_fix(remove_articles(remove_punc(lower(s))))
+
+
+def f1_score(prediction, ground_truth, **kwargs):
+    common = Counter(prediction) & Counter(ground_truth)
+    num_same = sum(common.values())
+    if num_same == 0:
+        return 0
+    precision = 1.0 * num_same / len(prediction)
+    recall = 1.0 * num_same / len(ground_truth)
+    f1 = (2 * precision * recall) / (precision + recall)
+    return f1
+
+def qa_f1_score(prediction, ground_truth, **kwargs):
+    normalized_prediction = normalize_answer(prediction)
+    normalized_ground_truth = normalize_answer(ground_truth)
+
+    prediction_tokens = normalized_prediction.split()
+    ground_truth_tokens = normalized_ground_truth.split()
+    return f1_score(prediction_tokens, ground_truth_tokens)
+
+# 1) Load JSONL files
+references = []
+cnt = 0
+with open('./results/answer_2wiki.jsonl', 'r', encoding='utf-8') as f:
+    for line in f:
+        # if cnt == 10:
+        #     break
+        references.append(json.loads(line.strip()))
+        # cnt += 1
+
+ref_dict = {item["id"]: item["answer"] for item in references}
 
 # Iterate over each generated file and compute metrics
 for gen_file in generated_files:
     generated = []
-    with open(gen_file, 'r', encoding='utf-8') as f:
+    with open(f"./results/{gen_file}", 'r', encoding='utf-8') as f:
         for line in f:
             generated.append(json.loads(line.strip()))
 
@@ -47,6 +91,10 @@ for gen_file in generated_files:
     avg_recall = R.mean().item()
     avg_f1 = F1.mean().item()
 
+    # 4) QA-style F1 Evaluation (token overlap)
+    qa_f1s = [qa_f1_score(gen, ref) for gen, ref in zip(gen_texts, ref_texts)]
+    avg_qa_f1 = sum(qa_f1s) / len(qa_f1s)
+
     # Output the evaluation for the current file
     print(f"=== Evaluation for {gen_file} ===")
     print("ROUGE Scores (Average F-measure):")
@@ -57,5 +105,8 @@ for gen_file in generated_files:
     print("BERTScore (Average):")
     print(f"Precision: {avg_precision:.4f}")
     print(f"Recall   : {avg_recall:.4f}")
-    print(f"F1       : {avg_f1:.4f}")
+    print(f"F1       : {avg_f1:.4f}\n")
+    
+    print("QA-style F1:")
+    print(f"F1       : {avg_qa_f1:.4f}")
     print("\n" + "-"*40 + "\n")
